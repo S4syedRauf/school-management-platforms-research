@@ -1,0 +1,167 @@
+{
+ "platform": "Cloud-based web SaaS ERP with claimed Android and iOS mobile apps; no current on-premise deployment documented.",
+ "segments": [
+  "preschool",
+  "k12_public",
+  "k12_private_independent",
+  "international_ib",
+  "higher_ed",
+  "coaching_vocational",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "full",
+  "timetable_auto_scheduling": "full",
+  "cover_substitution": "partial",
+  "gradebook": "full",
+  "standards_competency_grading": "full",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "full",
+  "curriculum_planning": "full",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "partial",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "full",
+  "online_payments": "partial",
+  "accounting_ledger": "full",
+  "payroll_hr": "full",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "full",
+  "hostel": "full",
+  "library": "full",
+  "inventory_assets": "full",
+  "health_medical": "partial",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "partial",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "partial",
+  "genai_assistant": "partial",
+  "predictive_analytics": "partial",
+  "government_statutory_reporting": "partial",
+  "accreditation_obe": "full",
+  "higher_ed_registration_degree_audit": "full",
+  "financial_aid_scholarships": "full",
+  "alumni_advancement_fundraising": "full",
+  "marketing_website_cms": "none_or_not_documented",
+  "open_api": "partial",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "none_or_not_documented",
+  "offline_mode": "partial",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "full",
+  "data_export_portability": "full",
+  "visitor_management": "full",
+  "canteen_cashless": "partial",
+  "placements_careers": "partial",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Accreditation Data Management for NAAC, NBA and NIRF reporting, with evidence uploads and audit trails.",
+   "why_it_matters": "It supports Indian higher-education institutions in organizing accreditation evidence and producing review-ready reports."
+  },
+  {
+   "feature": "OBE capabilities map course outcomes to program outcomes and support attainment calculations.",
+   "why_it_matters": "The mapping connects assessment results to outcome-based education reporting and institutional review."
+  },
+  {
+   "feature": "CBCS and NEP-aligned course selection includes prerequisites, electives and credit-load checks.",
+   "why_it_matters": "These controls help institutions manage complex credit choices and registration rules."
+  },
+  {
+   "feature": "Examination workflows include configurable grading, online proctoring signals and QR-verified credentials.",
+   "why_it_matters": "It supports examination administration, result verification and credential integrity."
+  },
+  {
+   "feature": "Affiliated-college and multi-campus operations connect institution-level data with central reporting.",
+   "why_it_matters": "Groups can coordinate administration and reporting across campuses or affiliated institutions."
+  },
+  {
+   "feature": "Alumni capabilities include mentoring, jobs, chapters, donations, pledges and e-voting.",
+   "why_it_matters": "Institutions can manage alumni engagement and fundraising within the education platform."
+  },
+  {
+   "feature": "Attendance supports biometric, RFID, QR, OTP, mobile and geolocation methods.",
+   "why_it_matters": "Institutions can use multiple attendance methods across classrooms, hostels and staff workflows."
+  },
+  {
+   "feature": "Vendor-claimed AI Copilot and agents cover search, advising and selected administrative checks.",
+   "why_it_matters": "If available as claimed, these tools could assist users across academic and administrative workflows."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Pricing is quote-only, and plan boundaries and implementation costs are not publicly specified.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "G2 reviewers report refreshes, app freezing and attendance glitches.",
+   "cluster": "performance_reliability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "G2 feedback cites weaker mobile compatibility and requests a more advanced mobile app.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "Gartner’s public summary reports cross-integration challenges between modules.",
+   "cluster": "fragmented_tools",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Public documentation lacks an API reference, named payment connectors and a public SLA.",
+   "cluster": "other",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Institution and user adoption figures conflict across vendor pages and are not independently audited.",
+   "cluster": "product_uncertainty_ownership",
+   "affected_role": "owner_trustee_group_ceo"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "dean_hod",
+  "accreditation_iqac",
+  "teacher_faculty",
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "hr_manager",
+  "parent",
+  "student",
+  "alumni"
+ ],
+ "roles_poorly_served": [
+  "it_data_manager"
+ ],
+ "ai_features": [
+  "Vendor-claimed MS AI Copilot and AI Agents.",
+  "Universal search and adaptive advising.",
+  "Claimed dropout prediction and at-risk-student identification.",
+  "Claimed AI assistance for fee configuration, scholarship and document checks, payroll validation, and query management.",
+  "Model providers and feature-tier availability are not publicly documented."
+ ],
+ "pricing_model_summary": "No public MasterSoft pricing page or plan table. Pricing is quote-only; the stated ₹0–₹250 per student yearly range is general market guidance, not a MasterSoft quote.",
+ "biggest_strategic_gap": "Public evidence does not establish a documented integration ecosystem: no API reference, marketplace, or verified OneRoster, LTI or Ed-Fi support.",
+ "_file": "02-platform-profiles/02-india-top-10/01-MasterSoft-ERP.md"
+}

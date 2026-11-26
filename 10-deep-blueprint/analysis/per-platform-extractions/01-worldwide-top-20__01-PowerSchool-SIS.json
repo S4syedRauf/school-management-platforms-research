@@ -1,0 +1,175 @@
+{
+ "platform": "Cloud SaaS, web-based K–12 SIS with native iOS and Android companion apps",
+ "segments": [
+  "k12_public",
+  "k12_private_independent",
+  "government",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "partial",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "partial",
+  "gradebook": "full",
+  "standards_competency_grading": "full",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "full",
+  "curriculum_planning": "partial",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "partial",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "partial",
+  "fees_billing": "partial",
+  "online_payments": "partial",
+  "accounting_ledger": "partial",
+  "payroll_hr": "partial",
+  "recruitment": "partial",
+  "transport_gps": "partial",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "partial",
+  "health_medical": "partial",
+  "behavior_pastoral": "full",
+  "safeguarding": "partial",
+  "special_education_iep": "full",
+  "mtss_early_warning": "full",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "full",
+  "predictive_analytics": "none_or_not_documented",
+  "government_statutory_reporting": "full",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "none_or_not_documented",
+  "marketing_website_cms": "partial",
+  "open_api": "none_or_not_documented",
+  "standards_oneroster_lti_edfi": "partial",
+  "sso": "none_or_not_documented",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "full",
+  "multi_campus_group": "full",
+  "data_export_portability": "partial",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "partial",
+  "placements_careers": "partial",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "PowerBuddy AI across tutoring, lesson drafting, assessment generation, career exploration, and natural-language data analysis.",
+   "why_it_matters": "One assistant supports multiple school roles and workflows rather than a single narrow AI use."
+  },
+  {
+   "feature": "Connected whole-child support linking SIS data, behavior, MTSS, special programs, and analytics.",
+   "why_it_matters": "Institutions can connect student indicators and interventions across administrative and support workflows."
+  },
+  {
+   "feature": "Special Programs includes IEP, 504, ELL, gifted services, digital signatures, case management, and jurisdiction-specific models.",
+   "why_it_matters": "Centralizes specialized student-service workflows and related documentation."
+  },
+  {
+   "feature": "Enrollment offers configurable mobile-friendly forms, multilingual registration, document uploads, reenrollment, and automated SIS transfer.",
+   "why_it_matters": "Reduces manual handling between registration and student-record creation."
+  },
+  {
+   "feature": "Behavior Support dashboards combine behavior trends, positivity ratios, family messaging, and translation.",
+   "why_it_matters": "Helps schools review behavior patterns and communicate with families in one workflow."
+  },
+  {
+   "feature": "Analytics & Insights provides role-secured dashboards, configurable KPIs, historical profiles, and individualized plans.",
+   "why_it_matters": "Allows different school roles to examine student and institutional data with controlled access."
+  },
+  {
+   "feature": "Broad K–12 suite connects SIS, LMS, assessment, communications, ERP, HR, and college-career tools.",
+   "why_it_matters": "Organizations can consolidate several operational and instructional workflows within one vendor ecosystem."
+  },
+  {
+   "feature": "PowerSchool ERP includes K–12 fund accounting, purchasing, fixed assets, grants, and extensive reporting.",
+   "why_it_matters": "Supports district financial operations alongside the student information system."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Reviews report a steep learning curve, confusing navigation, many screens, and technical issues.",
+   "cluster": "complexity_usability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Reviewers report extra training or plugin costs, while official pricing is quote-only.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Users report enrollment migration and year-rollover difficulties, plus requests for simpler reporting and bulk workflows.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Android app reviews cite crashes, stale grades, and notification problems; iOS and Android ratings differ substantially.",
+   "cluster": "performance_reliability",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "A reviewer described a failed multi-district merge, billing problems, and substantial customer-side cleanup.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "A 2024–2025 SIS incident involved unauthorized data exfiltration and potentially sensitive student information.",
+   "cluster": "security_privacy",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Library, hostel, and alumni fundraising capabilities were not substantiated as native SIS modules.",
+   "cluster": "segment_limited",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "Public materials did not establish a universally documented SIS API contract or verified Ed-Fi and SIF support.",
+   "cluster": "other",
+   "affected_role": "it_data_manager"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "teacher_faculty",
+  "counsellor_senco_safeguarding",
+  "hr_manager",
+  "it_data_manager",
+  "parent",
+  "student",
+  "government_inspector"
+ ],
+ "roles_poorly_served": [
+  "librarian",
+  "hostel_warden",
+  "alumni"
+ ],
+ "ai_features": [
+  "PowerBuddy conversational student tutoring",
+  "Lesson and assessment drafting",
+  "Standards-aligned content generation",
+  "Recommendations and college-career exploration",
+  "Recommendation-letter drafting",
+  "Natural-language data analysis",
+  "Assessment item generation",
+  "AI rubric scoring"
+ ],
+ "pricing_model_summary": "No official public price list; SIS, modules, implementation, and support are quote-based and configuration-dependent. Marketplace price estimates lack comparable units.",
+ "biggest_strategic_gap": "Public evidence does not establish a universal SIS API contract, while pricing is opaque and the reported SIS breach creates a material trust concern.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/01-PowerSchool-SIS.md"
+}

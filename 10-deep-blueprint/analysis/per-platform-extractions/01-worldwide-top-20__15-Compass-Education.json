@@ -1,0 +1,156 @@
+{
+ "platform": "Compass Education",
+ "segments": [
+  "k12_public",
+  "k12_private_independent",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "full",
+  "standards_competency_grading": "partial",
+  "exams_management": "none_or_not_documented",
+  "report_cards_transcripts": "full",
+  "lms_homework": "full",
+  "curriculum_planning": "partial",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "full",
+  "payroll_hr": "partial",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "partial",
+  "hostel": "none_or_not_documented",
+  "library": "partial",
+  "inventory_assets": "partial",
+  "health_medical": "partial",
+  "behavior_pastoral": "full",
+  "safeguarding": "partial",
+  "special_education_iep": "partial",
+  "mtss_early_warning": "none_or_not_documented",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "partial",
+  "genai_assistant": "none_or_not_documented",
+  "predictive_analytics": "none_or_not_documented",
+  "government_statutory_reporting": "partial",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "partial",
+  "marketing_website_cms": "none_or_not_documented",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "partial",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "partial",
+  "multi_campus_group": "full",
+  "data_export_portability": "full",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "full",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Pulse dashboards visualize attendance, learning, and wellbeing, including cohort and year-level comparisons.",
+   "why_it_matters": "School leaders can review several operational domains and compare groups from a shared analytics view."
+  },
+  {
+   "feature": "CompassFMS includes general ledger, accounts payable and receivable, budgets, purchase orders, and fixed assets.",
+   "why_it_matters": "Schools can connect student-facing fees with broader finance operations in the same platform."
+  },
+  {
+   "feature": "Family payments connect consent and events with invoices, payment plans, donations, Wallet, canteen orders, and Shop.",
+   "why_it_matters": "Families can handle multiple school transactions through connected payment workflows."
+  },
+  {
+   "feature": "Public REST API documentation and a sandbox support custom integrations.",
+   "why_it_matters": "Schools and partners can test integrations and extend the platform beyond its named connectors."
+  },
+  {
+   "feature": "Chronicle and Digest provide wellbeing records, selected-student updates, and configurable access controls.",
+   "why_it_matters": "Staff can coordinate sensitive pastoral workflows while restricting access to appropriate roles."
+  },
+  {
+   "feature": "Inklass acquisition adds a school-branded mobile-app strategy with integrations across school systems.",
+   "why_it_matters": "Schools can pursue a more unified, branded mobile experience for families."
+  },
+  {
+   "feature": "The UK service describes per-customer databases, automated failover, and a 99.9% availability commitment.",
+   "why_it_matters": "These documented service measures offer procurement-relevant evidence about resilience for that service."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Pricing is quote-only, with no public tiers, per-student rate, or implementation price.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "The Android app has a 3.4/5 rating and reports include sign-outs, difficult login, crashes, and confusing navigation.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "iOS reviews report limited mobile access to resources or feedback and friction with payment confirmation and card entry.",
+   "cluster": "complexity_usability",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "Mobile workflows can differ from the browser, and some functions depend on school configuration or optional modules.",
+   "cluster": "fragmented_tools",
+   "affected_role": "student"
+  },
+  {
+   "issue": "G2 shows only one review, so its displayed rating provides little evidence about typical customer experience.",
+   "cluster": "other",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Native transport, library, hostel, and formal examination modules are not publicly evidenced; integrations do not establish native coverage.",
+   "cluster": "segment_limited",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "No production AI assistant or predictive analytics capability is publicly documented.",
+   "cluster": "ai_shallow_or_risky",
+   "affected_role": "principal_head"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "teacher_faculty",
+  "counsellor_senco_safeguarding",
+  "parent",
+  "student",
+  "it_data_manager"
+ ],
+ "roles_poorly_served": [
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "exam_controller_registrar",
+  "government_inspector"
+ ],
+ "ai_features": [],
+ "pricing_model_summary": "No public list pricing; prospects request a demo or vendor quote. Pricing, implementation, migration, training, support, payments, and branded-app costs require confirmation.",
+ "biggest_strategic_gap": "Mobile usability, especially Android, is a notable weakness in an otherwise broad K–12 suite; specialist native modules and documented AI capabilities are also limited.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/15-Compass-Education.md"
+}

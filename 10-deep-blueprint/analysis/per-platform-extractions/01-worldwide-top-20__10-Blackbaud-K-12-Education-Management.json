@@ -1,0 +1,175 @@
+{
+ "platform": "Cloud SaaS, browser-based and mobile-friendly; native K–12 apps are available through a third-party partner.",
+ "segments": [
+  "k12_private_independent",
+  "higher_ed",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "full",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "full",
+  "standards_competency_grading": "partial",
+  "exams_management": "partial",
+  "report_cards_transcripts": "full",
+  "lms_homework": "full",
+  "curriculum_planning": "none_or_not_documented",
+  "parent_app": "partial",
+  "student_app": "partial",
+  "teacher_mobile_app": "partial",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "partial",
+  "payroll_hr": "none_or_not_documented",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "partial",
+  "hostel": "partial",
+  "library": "none_or_not_documented",
+  "inventory_assets": "none_or_not_documented",
+  "health_medical": "partial",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "partial",
+  "mtss_early_warning": "none_or_not_documented",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "partial",
+  "genai_assistant": "partial",
+  "predictive_analytics": "partial",
+  "government_statutory_reporting": "none_or_not_documented",
+  "accreditation_obe": "partial",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "full",
+  "alumni_advancement_fundraising": "full",
+  "marketing_website_cms": "partial",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "partial",
+  "sso": "full",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "full",
+  "multi_campus_group": "partial",
+  "data_export_portability": "partial",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "none_or_not_documented",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "360° student view connects academics, attendance, activities, medical records, grades, and graduation progress.",
+   "why_it_matters": "Staff can review a broad student profile from one record rather than reconciling separate systems."
+  },
+  {
+   "feature": "Integrated enrollment, financial aid, billing, payment, and ledger workflows.",
+   "why_it_matters": "Schools can connect admissions decisions and aid awards with contracts, tuition collection, and financial posting."
+  },
+  {
+   "feature": "Complex scheduling supports rotations, partial days, schedule sets, and student course requests.",
+   "why_it_matters": "Independent schools can model varied calendars and course-selection processes within the SIS."
+  },
+  {
+   "feature": "“Find Me Now” locates students and teachers against the actual day schedule.",
+   "why_it_matters": "Staff can identify a person’s scheduled location without relying on a static timetable."
+  },
+  {
+   "feature": "Raiser’s Edge NXT connects student and family records with alumni and donor stewardship.",
+   "why_it_matters": "Advancement teams can maintain relationships with graduates and families using connected constituent information."
+  },
+  {
+   "feature": "Financial Aid Management includes IRS tax-data integration and automated award reallocation.",
+   "why_it_matters": "Aid teams can review applications and reassign unaccepted awards through documented workflows."
+  },
+  {
+   "feature": "SKY API, OneRoster, LTI 1.3, SSO, and a vetted marketplace support extensibility.",
+   "why_it_matters": "Schools can connect learning tools and build integrations without relying solely on native modules."
+  },
+  {
+   "feature": "Financial and aid workflows include AI-driven document review, reconciliation, and insights.",
+   "why_it_matters": "Automation targets administrative finance tasks, though the dossier does not document a K–12 classroom assistant."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "SIS implementation averages seven months according to G2, and reviews describe a steep learning curve.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Reviewers report templated onboarding, inflexible configuration, and schools carrying substantial implementation work.",
+   "cluster": "support_implementation",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "Users cite dated or buried reporting, limited queries, and difficult report-building workflows.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Users report too many clicks, clunky calendars, inconsistent interfaces, and slow imports.",
+   "cluster": "complexity_usability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Reviews describe inconsistent support, difficulty reaching live chat, and limited access to higher-tier engineering.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Pricing is quote-based, and reviewers cite cost, paid implementation, and cross-module dependencies.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "The 2020 ransomware incident and subsequent regulatory actions remain vendor-risk considerations.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Core K–12 mobile coverage is unclear; schools may rely on a partner-branded app.",
+   "cluster": "fragmented_tools",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "The older ON API reaches end of life March 31, 2027; new integrations should use SKY API.",
+   "cluster": "product_uncertainty_ownership",
+   "affected_role": "it_data_manager"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "teacher_faculty",
+  "parent",
+  "student",
+  "alumni"
+ ],
+ "roles_poorly_served": [
+  "it_data_manager",
+  "hr_manager",
+  "transport_manager",
+  "librarian",
+  "counsellor_senco_safeguarding"
+ ],
+ "ai_features": [
+  "AI-driven financial-aid document review",
+  "AI-powered reconciliation and financial insights in Financial Edge NXT",
+  "Predictive fundraising insights in Raiser’s Edge NXT",
+  "Natural-language assistance across Blackbaud AI; K–12-specific availability is not established"
+ ],
+ "pricing_model_summary": "Quote-based; varies by organization size, users, modules, support, and services. No official per-student or monthly price is published; implementation, training, and support are typically included.",
+ "biggest_strategic_gap": "Native K–12 mobile coverage and specialized operations such as HR, safeguarding, library, and government reporting are limited or undocumented, while implementation and reporting complexity can burden schools.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/10-Blackbaud-K-12-Education-Management.md"
+}

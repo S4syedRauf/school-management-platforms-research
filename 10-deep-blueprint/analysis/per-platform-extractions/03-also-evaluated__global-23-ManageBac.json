@@ -1,0 +1,154 @@
+{
+ "platform": "ManageBac+ (Faria Education Group)",
+ "segments": [
+  "international_ib",
+  "k12_private_independent"
+ ],
+ "coverage": {
+  "admissions_crm": "partial",
+  "online_enrollment": "partial",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "full",
+  "standards_competency_grading": "full",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "full",
+  "curriculum_planning": "full",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "partial",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "none_or_not_documented",
+  "online_payments": "none_or_not_documented",
+  "accounting_ledger": "none_or_not_documented",
+  "payroll_hr": "none_or_not_documented",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "none_or_not_documented",
+  "health_medical": "none_or_not_documented",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "none_or_not_documented",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "partial",
+  "genai_assistant": "full",
+  "predictive_analytics": "none_or_not_documented",
+  "government_statutory_reporting": "none_or_not_documented",
+  "accreditation_obe": "partial",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "none_or_not_documented",
+  "marketing_website_cms": "none_or_not_documented",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "partial",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "none_or_not_documented",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "none_or_not_documented",
+  "data_export_portability": "full",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "none_or_not_documented",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "IB-specific workflows for IBIS registration, CAS, Extended Essay, Theory of Knowledge, Internal Assessments and eCoursework.",
+   "why_it_matters": "These workflows reduce spreadsheet-based coordination and help schools track required IB programme components."
+  },
+  {
+   "feature": "Curriculum-first planning across more than 600 standards sets and multiple curricula.",
+   "why_it_matters": "Schools can connect learning outcomes, units, assessment and reporting across IB and other programmes."
+  },
+  {
+   "feature": "Single platform supports IB, Cambridge, IGCSE, Edexcel, AP and custom programmes.",
+   "why_it_matters": "International schools can manage different curricula within one school environment."
+  },
+  {
+   "feature": "Configurable multilingual and right-to-left report cards with proofing and rubric support.",
+   "why_it_matters": "Schools can produce locally appropriate, branded reports for varied languages and reporting models."
+  },
+  {
+   "feature": "Portfolios capture goals, reflections, CAS, projects, coursework and awards.",
+   "why_it_matters": "Students and teachers can document learning evidence beyond grades."
+  },
+  {
+   "feature": "One native mobile app supports students, parents, teachers, coordinators and administrators.",
+   "why_it_matters": "Multiple school roles can access relevant academic and communication workflows on mobile."
+  },
+  {
+   "feature": "ManageBac Writing Assistant includes text generation, revision, simplification and translation.",
+   "why_it_matters": "Staff can work with text inside the platform, subject to documented availability limits."
+  },
+  {
+   "feature": "Public APIs and integrations connect ManageBac with SIS, productivity and assessment tools.",
+   "why_it_matters": "Schools can connect core workflows with systems such as Google Workspace, iSAMS and Turnitin."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Admissions relies on separate OpenApply; fees, HR, transport, library, boarding and other ERP functions are absent or separate.",
+   "cluster": "fragmented_tools",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Pricing is quote-only, with no public per-student price or tier limits.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Reviewers criticized navigation, interface usability and information density.",
+   "cluster": "complexity_usability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Mobile reviewers reported confusing navigation and difficulty using task and deadline views.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "student"
+  },
+  {
+   "issue": "Some reviewers reported maintenance interruptions or perceived downtime.",
+   "cluster": "performance_reliability",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "The AI Writing Assistant is unavailable in native apps and China, and does not use platform page context.",
+   "cluster": "ai_shallow_or_risky",
+   "affected_role": "teacher_faculty"
+  }
+ ],
+ "roles_well_served": [
+  "academic_coordinator",
+  "teacher_faculty",
+  "parent",
+  "student",
+  "exam_controller_registrar"
+ ],
+ "roles_poorly_served": [
+  "accountant_bursar",
+  "hr_manager",
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "counsellor_senco_safeguarding",
+  "owner_trustee_group_ceo"
+ ],
+ "ai_features": [
+  "ManageBac Writing Assistant generates, revises, simplifies, expands, corrects and translates text.",
+  "AssessPrep, a linked assessment service, offers AI question creation and grading."
+ ],
+ "pricing_model_summary": "Annual subscription priced by student count; quotes required. Two-year prepayment receives 5% off and three-year prepayment 10% off.",
+ "biggest_strategic_gap": "ManageBac+ is curriculum and academic-management focused, not a full SIS/ERP; many operational functions require separate products or integrations.",
+ "_file": "02-platform-profiles/03-also-evaluated/global-23-ManageBac.md"
+}

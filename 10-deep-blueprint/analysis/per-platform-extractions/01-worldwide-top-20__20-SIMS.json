@@ -1,0 +1,151 @@
+{
+ "platform": "Hybrid: SIMS 7 locally hosted/on-premise; SIMS Next Gen cloud/web; native iOS and Android apps.",
+ "segments": [
+  "k12_public",
+  "k12_private_independent",
+  "multi_campus_group",
+  "government",
+  "coaching_vocational",
+  "higher_ed"
+ ],
+ "coverage": {
+  "admissions_crm": "partial",
+  "online_enrollment": "partial",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "full",
+  "gradebook": "full",
+  "standards_competency_grading": "none_or_not_documented",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "partial",
+  "curriculum_planning": "none_or_not_documented",
+  "parent_app": "full",
+  "student_app": "partial",
+  "teacher_mobile_app": "partial",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "partial",
+  "online_payments": "full",
+  "accounting_ledger": "full",
+  "payroll_hr": "partial",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "partial",
+  "health_medical": "partial",
+  "behavior_pastoral": "full",
+  "safeguarding": "partial",
+  "special_education_iep": "partial",
+  "mtss_early_warning": "partial",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "partial",
+  "genai_assistant": "none_or_not_documented",
+  "predictive_analytics": "none_or_not_documented",
+  "government_statutory_reporting": "full",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "none_or_not_documented",
+  "marketing_website_cms": "none_or_not_documented",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "partial",
+  "sso": "full",
+  "offline_mode": "partial",
+  "nocode_workflow_automation": "none_or_not_documented",
+  "marketplace_plugins": "partial",
+  "multi_campus_group": "full",
+  "data_export_portability": "partial",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "partial",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Embedded UK census and statutory financial-return workflows",
+   "why_it_matters": "Schools can manage important DfE returns and validation within established administrative workflows."
+  },
+  {
+   "feature": "SIMS 7 and Next Gen coexistence",
+   "why_it_matters": "Schools can adopt cloud modules gradually while continuing to use established local workflows."
+  },
+  {
+   "feature": "MAT Group Hub and configurable Power BI dashboards",
+   "why_it_matters": "Trust leaders can review cross-school data and apply group-level oversight."
+  },
+  {
+   "feature": "Broad partner ecosystem with OData APIs and OneRoster",
+   "why_it_matters": "Documented interfaces and integrator support enable connections to external school systems."
+  },
+  {
+   "feature": "Connected SIMS, FMS, ParentPay and Schoolcomms services",
+   "why_it_matters": "The group portfolio links pupil administration with finance, payments and family communications."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Cloud migration is phased, with some modules still developing or awaiting rollout.",
+   "cluster": "product_uncertainty_ownership",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Reviewers describe a dated interface and difficult report or marksheet configuration.",
+   "cluster": "complexity_usability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Users report unreliable reports, glitches and slow performance.",
+   "cluster": "performance_reliability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Reviewers report poor support experiences and limited troubleshooting resources.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "SIMS Parent reviews report login loops, logouts, stalled messages and missing content.",
+   "cluster": "performance_reliability",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "CMA scrutiny and complaints raised concerns about complex or error-prone database transfers; no infringement finding was made.",
+   "cluster": "lockin_migration",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Pricing is quote-based, with no public official price list.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "teacher_faculty",
+  "it_data_manager",
+  "parent",
+  "student",
+  "government_inspector"
+ ],
+ "roles_poorly_served": [
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "alumni"
+ ],
+ "ai_features": [],
+ "pricing_model_summary": "No official public price list; packages and support tiers require a demo or quote. A third-party estimate exists but is not an official tariff.",
+ "biggest_strategic_gap": "The cloud rebuild is still phased, leaving schools to manage a transition between established local SIMS 7 and developing Next Gen modules.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/20-SIMS.md"
+}

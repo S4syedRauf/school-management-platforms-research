@@ -1,0 +1,161 @@
+{
+ "platform": "Cloud-hosted web SIS on AWS with native iOS and Android apps; self-hosted district deployments are also documented.",
+ "segments": [
+  "k12_public"
+ ],
+ "coverage": {
+  "admissions_crm": "partial",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "partial",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "full",
+  "standards_competency_grading": "full",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "partial",
+  "curriculum_planning": "none_or_not_documented",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "partial",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "partial",
+  "payroll_hr": "none_or_not_documented",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "none_or_not_documented",
+  "library": "partial",
+  "inventory_assets": "partial",
+  "health_medical": "full",
+  "behavior_pastoral": "partial",
+  "safeguarding": "partial",
+  "special_education_iep": "partial",
+  "mtss_early_warning": "partial",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "none_or_not_documented",
+  "predictive_analytics": "partial",
+  "government_statutory_reporting": "full",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "partial",
+  "marketing_website_cms": "partial",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "partial",
+  "sso": "full",
+  "offline_mode": "partial",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "full",
+  "data_export_portability": "full",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "partial",
+  "placements_careers": "partial",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "California and Texas state-reporting support, including CALPADS, CAASPP, CRDC, and PEIMS/TSDS workflows.",
+   "why_it_matters": "Districts can manage state-specific compliance and reporting within the SIS."
+  },
+  {
+   "feature": "Aeries Analytics offers configurable indicators, dynamic student groups, drill-down dashboards, and exports.",
+   "why_it_matters": "Staff can identify at-risk students and monitor interventions using district data."
+  },
+  {
+   "feature": "Online Enrollment and Enroll Path provide configurable multilingual forms, document uploads, and enrollment workflows.",
+   "why_it_matters": "Districts can reduce manual entry and tailor registration processes."
+  },
+  {
+   "feature": "EM2 can cache authorized student, contact, medical, discipline, class, and attendance records for offline emergencies.",
+   "why_it_matters": "School personnel can access key records when network access is unavailable."
+  },
+  {
+   "feature": "REST API version 5 supports JSON or XML and exposes broad SIS data endpoints.",
+   "why_it_matters": "Districts can connect Aeries with external systems and manage data exchange."
+  },
+  {
+   "feature": "ParentSquare-powered communications combines messaging channels, translation, surveys, forms, and permission slips.",
+   "why_it_matters": "Districts can coordinate family communications through a connected product."
+  },
+  {
+   "feature": "Supports AWS-hosted and documented self-hosted deployments.",
+   "why_it_matters": "Districts have a choice of hosting approach."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Reviews report clunky navigation, excessive clicks, difficult workflows, and challenging training materials.",
+   "cluster": "complexity_usability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Capterra reviews cite ticket-based support and a 2.7/5 customer-service rating.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Apple app ratings are low, with reviews citing crashes, login failures, loading errors, and locked attendance.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "G2 reviews mention gradebook complexity and hard-to-find options.",
+   "cluster": "complexity_usability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Reviews cite confusing reports and gaps in parent or teacher grade transfer.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "academic_coordinator"
+  },
+  {
+   "issue": "No public pricing or free trial is documented, complicating buyer budgeting.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Partner integrations provide several functions rather than native modules, potentially increasing cost and data-governance complexity.",
+   "cluster": "fragmented_tools",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Product is U.S.-centric, with no verified international footprint or higher-education feature set.",
+   "cluster": "segment_limited",
+   "affected_role": "owner_trustee_group_ceo"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "teacher_faculty",
+  "parent",
+  "student",
+  "it_data_manager",
+  "government_inspector"
+ ],
+ "roles_poorly_served": [
+  "hr_manager",
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "alumni",
+  "accreditation_iqac"
+ ],
+ "ai_features": [],
+ "pricing_model_summary": "No public pricing, tiers, or numeric estimates are documented; sales-led district quoting is indicated, with add-ons and implementation potentially scoped separately.",
+ "biggest_strategic_gap": "Mobile usability and reliability are weak in app reviews, while several adjacent functions depend on integrations rather than native modules.",
+ "_file": "02-platform-profiles/03-also-evaluated/global-21-Aeries-SIS.md"
+}

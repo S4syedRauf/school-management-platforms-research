@@ -1,0 +1,179 @@
+{
+ "platform": "Cloud SaaS and browser-based ERP/SIS; institution-specific Android and iOS apps; five-year license option with separate hosting setup.",
+ "segments": [
+  "higher_ed",
+  "k12_public",
+  "k12_private_independent",
+  "coaching_vocational",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "full",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "full",
+  "standards_competency_grading": "partial",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "partial",
+  "curriculum_planning": "none_or_not_documented",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "partial",
+  "multilingual_ui": "full",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "partial",
+  "payroll_hr": "partial",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "partial",
+  "hostel": "partial",
+  "library": "partial",
+  "inventory_assets": "partial",
+  "health_medical": "partial",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "partial",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "full",
+  "predictive_analytics": "full",
+  "government_statutory_reporting": "none_or_not_documented",
+  "accreditation_obe": "partial",
+  "higher_ed_registration_degree_audit": "partial",
+  "financial_aid_scholarships": "partial",
+  "alumni_advancement_fundraising": "partial",
+  "marketing_website_cms": "partial",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "none_or_not_documented",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "full",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "full",
+  "data_export_portability": "partial",
+  "visitor_management": "partial",
+  "canteen_cashless": "none_or_not_documented",
+  "placements_careers": "full",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "AI student assistant, natural-language reporting, enrollment bot, document verification, and retention-risk prediction.",
+   "why_it_matters": "These tools may automate student support and operational analysis beyond conventional ERP dashboards."
+  },
+  {
+   "feature": "More than 800 vendor-claimed customizable dashboards and reports, including AI-powered reporting.",
+   "why_it_matters": "Broad reporting can help institutions analyze admissions, fees, attendance, performance, and multi-campus operations."
+  },
+  {
+   "feature": "Public REST API with documented admissions, finance, student, and faculty operations.",
+   "why_it_matters": "Documented endpoints give institutions a concrete route to integrate external systems and access records."
+  },
+  {
+   "feature": "Attendance capture through mobile entry, QR, RFID, and biometric integrations.",
+   "why_it_matters": "Multiple capture methods let institutions align attendance workflows with different campus settings."
+  },
+  {
+   "feature": "Configurable workflows, forms, and rules with low/no-code customization.",
+   "why_it_matters": "Institutions can adapt processes without relying entirely on custom software development."
+  },
+  {
+   "feature": "Five-year upfront license option alongside annual SaaS subscriptions.",
+   "why_it_matters": "The alternative commercial model gives buyers a choice beyond recurring SaaS subscriptions."
+  },
+  {
+   "feature": "Institution-branded Android and iOS apps with module availability varying by institution.",
+   "why_it_matters": "Institutions can offer mobile access tailored to their selected deployment and user groups."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Public prices are quote-only; directory listings showing ₹1 per year are placeholders, not usable quotes.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Users report occasional bugs, slow loading, and slower-than-needed fixes.",
+   "cluster": "performance_reliability",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Reviewers report limited reporting flexibility and slow dynamic reports.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "academic_coordinator"
+  },
+  {
+   "issue": "Reviewers describe customization as time-consuming and learning as difficult.",
+   "cluster": "complexity_usability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Reviews cite a dated interface and limited student-mobile features.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "student"
+  },
+  {
+   "issue": "One older reviewer reported severe implementation failure and promised customization not delivered.",
+   "cluster": "support_implementation",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "Public evidence does not confirm UDISE+, APAAR, board-specific cards, or NEP progress-card reporting.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "government_inspector"
+  },
+  {
+   "issue": "SOC 2 status is inconsistently described as compliant and still in progress.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Public evidence does not confirm OneRoster, LTI, Ed-Fi, SIF, or SSO support.",
+   "cluster": "fragmented_tools",
+   "affected_role": "it_data_manager"
+  }
+ ],
+ "roles_well_served": [
+  "owner_trustee_group_ceo",
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "teacher_faculty",
+  "parent",
+  "student",
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "hr_manager",
+  "it_data_manager",
+  "alumni"
+ ],
+ "roles_poorly_served": [
+  "counsellor_senco_safeguarding",
+  "government_inspector"
+ ],
+ "ai_features": [
+  "SERA-AI student assistant",
+  "Natural-language reporting",
+  "AI enrollment bot",
+  "Document-verification engine",
+  "Workflow automation",
+  "Retention-risk prediction",
+  "AI-powered dashboards and reports"
+ ],
+ "pricing_model_summary": "Annual per-user SaaS subscription or five-year upfront license, usually volume-based, with fixed annual maintenance from year two; prices and implementation fees are unpublished.",
+ "biggest_strategic_gap": "Limited public evidence for Indian statutory reporting, board-specific workflows, DPDP readiness, and certified education interoperability standards.",
+ "_file": "02-platform-profiles/02-india-top-10/05-Academia-ERP.md"
+}

@@ -1,0 +1,174 @@
+{
+ "platform": "Cloud SaaS and web-based ERP/LMS with native iOS and Android apps; on-premise deployment is unverified.",
+ "segments": [
+  "preschool",
+  "k12_public",
+  "k12_private_independent",
+  "international_ib",
+  "higher_ed",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "full",
+  "timetable_auto_scheduling": "full",
+  "cover_substitution": "full",
+  "gradebook": "full",
+  "standards_competency_grading": "partial",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "full",
+  "curriculum_planning": "full",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "full",
+  "multilingual_ui": "partial",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "full",
+  "payroll_hr": "full",
+  "recruitment": "partial",
+  "transport_gps": "full",
+  "hostel": "full",
+  "library": "full",
+  "inventory_assets": "full",
+  "health_medical": "partial",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "partial",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "partial",
+  "predictive_analytics": "partial",
+  "government_statutory_reporting": "partial",
+  "accreditation_obe": "partial",
+  "higher_ed_registration_degree_audit": "partial",
+  "financial_aid_scholarships": "full",
+  "alumni_advancement_fundraising": "partial",
+  "marketing_website_cms": "partial",
+  "open_api": "partial",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "none_or_not_documented",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "full",
+  "data_export_portability": "full",
+  "visitor_management": "partial",
+  "canteen_cashless": "none_or_not_documented",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Fee workflows include seven named payment gateways, multi-account settlement, EDC reconciliation, and Tally XML synchronization.",
+   "why_it_matters": "Indian institutions can reconcile varied payment channels and route collections across branches or fee heads."
+  },
+  {
+   "feature": "Automatic timetable generation supports complex constraints, conflict-aware edits, and suggested teacher substitutions.",
+   "why_it_matters": "Schools can manage rooms, labs, electives, split sessions, and absences with less manual timetable coordination."
+  },
+  {
+   "feature": "WhatsApp Business API works alongside SMS fallback, push, email, and branded mobile apps.",
+   "why_it_matters": "Institutions can reach families through familiar channels and track delivery across communication methods."
+  },
+  {
+   "feature": "Report cards support CBSE, ICSE, IB, IGCSE, Cambridge, and major state-board formats.",
+   "why_it_matters": "Schools with different curricula can configure assessment outputs within one platform."
+  },
+  {
+   "feature": "Transport includes live GPS, ETA, boarding and alighting alerts, and route-level billing.",
+   "why_it_matters": "Families and transport teams can monitor journeys and connect route operations with charges."
+  },
+  {
+   "feature": "The AI assistant surfaces fee dues, attendance dips, admissions bottlenecks, and exam outliers, and drafts reminders.",
+   "why_it_matters": "Administrators can identify operational exceptions and prepare routine communications, though public technical validation is limited."
+  },
+  {
+   "feature": "A drag-and-drop report builder supports exports, scheduled delivery, and direct API access for BI tools.",
+   "why_it_matters": "Management teams can tailor reporting and transfer data into external analytics workflows."
+  },
+  {
+   "feature": "College workflows advertise CBCS, AICTE, UGC, and NAAC-oriented reporting.",
+   "why_it_matters": "Higher-education institutions can use ERP workflows aligned with common Indian academic and accreditation requirements."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Pricing is quote-only; the published ₹0–₹250 range is an older general-market estimate, not a Skolaro tariff.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Apple reviewers report missing notifications, poor performance, and difficulty viewing or downloading PDFs.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "Google Play reviews report persistent loading and links that fail to open.",
+   "cluster": "performance_reliability",
+   "affected_role": "student"
+  },
+  {
+   "issue": "Independent review evidence is thin, limiting external assessment of usability and implementation outcomes.",
+   "cluster": "product_uncertainty_ownership",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "AI, adoption, outcome, and compliance claims lack extensive public technical documentation or independent validation.",
+   "cluster": "ai_shallow_or_risky",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "UDISE+, APAAR, NEP holistic cards, DPDP readiness, and special-education capabilities are not publicly evidenced.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "accreditation_iqac"
+  },
+  {
+   "issue": "Google Play says data is not encrypted and cannot be deleted, conflicting with vendor privacy-policy statements.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "No public OneRoster, LTI, Ed-Fi, SSO, or developer documentation was found.",
+   "cluster": "fragmented_tools",
+   "affected_role": "it_data_manager"
+  }
+ ],
+ "roles_well_served": [
+  "owner_trustee_group_ceo",
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "teacher_faculty",
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "hr_manager",
+  "parent",
+  "student",
+  "alumni"
+ ],
+ "roles_poorly_served": [
+  "accreditation_iqac",
+  "counsellor_senco_safeguarding",
+  "it_data_manager"
+ ],
+ "ai_features": [
+  "Assistant surfaces fee dues, attendance dips, admissions bottlenecks, and exam outliers.",
+  "AI-drafted fee reminders are described; a public technical model card is unavailable."
+ ],
+ "pricing_model_summary": "Per-student pricing, billed annually or term-wise; quote-based with no public price card. Vendor says base pricing includes modules, implementation, training, and migration; unusual customization costs extra.",
+ "biggest_strategic_gap": "Limited public evidence for standards-based interoperability, specialized safeguarding and special-education workflows, and India-specific compliance such as UDISE+, APAAR, and DPDP readiness.",
+ "_file": "02-platform-profiles/02-india-top-10/06-Skolaro.md"
+}

@@ -1,0 +1,183 @@
+{
+ "platform": "OpenEduCat, an Odoo-based education ERP; browser-based, managed cloud, self-hosted or hybrid, with native iOS and Android apps.",
+ "segments": [
+  "preschool",
+  "k12_public",
+  "k12_private_independent",
+  "international_ib",
+  "higher_ed",
+  "coaching_vocational",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "partial",
+  "timetable_auto_scheduling": "full",
+  "cover_substitution": "full",
+  "gradebook": "partial",
+  "standards_competency_grading": "partial",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "partial",
+  "curriculum_planning": "partial",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "partial",
+  "multilingual_ui": "full",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "full",
+  "payroll_hr": "full",
+  "recruitment": "full",
+  "transport_gps": "partial",
+  "hostel": "partial",
+  "library": "full",
+  "inventory_assets": "full",
+  "health_medical": "partial",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "partial",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "partial",
+  "genai_assistant": "partial",
+  "predictive_analytics": "partial",
+  "government_statutory_reporting": "partial",
+  "accreditation_obe": "partial",
+  "higher_ed_registration_degree_audit": "partial",
+  "financial_aid_scholarships": "partial",
+  "alumni_advancement_fundraising": "partial",
+  "marketing_website_cms": "partial",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "partial",
+  "sso": "full",
+  "offline_mode": "partial",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "partial",
+  "multi_campus_group": "full",
+  "data_export_portability": "full",
+  "visitor_management": "partial",
+  "canteen_cashless": "none_or_not_documented",
+  "placements_careers": "partial",
+  "research_management": "partial"
+ },
+ "distinctive_features": [
+  {
+   "feature": "LGPL-3 Community Edition supports code inspection, modification, and self-hosting.",
+   "why_it_matters": "Institutions can avoid per-student licensing and retain control over deployment and customization."
+  },
+  {
+   "feature": "Odoo-based shared data model combines academic, finance, HR, and campus records.",
+   "why_it_matters": "A common database can reduce duplicate records and fragmented institutional systems."
+  },
+  {
+   "feature": "Deployment choices include managed cloud, on-premise, and hybrid.",
+   "why_it_matters": "Institutions can choose hosting based on operational capacity and data-residency needs."
+  },
+  {
+   "feature": "Enterprise supports CBCS, OBE, CO–PO attainment, thesis management, convocation, and placements.",
+   "why_it_matters": "These workflows address higher-education requirements that are uncommon in school-first ERPs."
+  },
+  {
+   "feature": "AI tools can connect to cloud providers or self-hosted Llama and Mistral endpoints.",
+   "why_it_matters": "Institutions have flexibility in model selection and potential data-handling arrangements."
+  },
+  {
+   "feature": "Enterprise exam tools include OMR scanning, multiple exam versions, and proctoring.",
+   "why_it_matters": "These tools support larger or more operationally complex assessment programs."
+  },
+  {
+   "feature": "Enterprise No Code Studio provides drag-and-drop apps, forms, workflows, and reports.",
+   "why_it_matters": "Administrators can adapt processes without building every change through custom code."
+  },
+  {
+   "feature": "Indian fee collection integrates Razorpay with UPI and ledger reconciliation.",
+   "why_it_matters": "It connects familiar local payment methods to student fee records."
+  },
+  {
+   "feature": "LTI 1.3, SCORM, and xAPI support learning integrations.",
+   "why_it_matters": "Institutions can connect external learning content and exchange learning data."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Reviewers report a learning curve, difficult setup, and technical issues.",
+   "cluster": "complexity_usability",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Some reviewers report insufficient support and documentation, especially for non-technical integrations.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Users describe too many menus and icons, terminology barriers, and a dated student profile.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Reviewers say grading-period and multi-teacher workflows can be cumbersome.",
+   "cluster": "complexity_usability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Feedback cites limited out-of-box customization and occasional performance slowdowns.",
+   "cluster": "performance_reliability",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Public documentation does not confirm ready-made Indian statutory exports such as UDISE+ or AISHE.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "government_inspector"
+  },
+  {
+   "issue": "Public documentation does not substantiate Tally, GST-specific invoicing, or DPDP readiness.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "accountant_bursar"
+  },
+  {
+   "issue": "Enterprise modules, mobile apps, hosting, and implementation can add costs; final quotes require configuration.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "teacher_faculty",
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "hr_manager",
+  "it_data_manager",
+  "parent",
+  "student"
+ ],
+ "roles_poorly_served": [
+  "government_inspector",
+  "counsellor_senco_safeguarding",
+  "accreditation_iqac"
+ ],
+ "ai_features": [
+  "Enterprise essay and assignment grading",
+  "Rubric and quiz generation",
+  "Lesson planning and note summarization",
+  "AI-generated report-card comments",
+  "At-risk alerts and predictive performance or enrollment insights",
+  "Model-agnostic connections to OpenAI, Claude, Gemini, Llama, and Mistral",
+  "AI chat assistant and enhanced search are listed by G2 but not independently verified"
+ ],
+ "pricing_model_summary": "Community Edition is free and LGPL-3. Enterprise starts at $79 per module annually; user packs, deployment, separately priced mobile apps, and implementation affect total cost. No public INR price.",
+ "biggest_strategic_gap": "India-specific statutory reporting and compliance are not clearly documented, while reviews also cite setup complexity, usability friction, and support gaps.",
+ "_file": "02-platform-profiles/03-also-evaluated/india-13-OpenEduCat.md"
+}

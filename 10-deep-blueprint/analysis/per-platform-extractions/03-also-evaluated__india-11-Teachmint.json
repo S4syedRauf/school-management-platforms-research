@@ -1,0 +1,164 @@
+{
+ "platform": "Cloud-backed SaaS and web platform with Android/iOS apps and Teachmint X classroom hardware; no documented on-premise deployment.",
+ "segments": [
+  "k12_public",
+  "k12_private_independent",
+  "higher_ed",
+  "coaching_vocational"
+ ],
+ "coverage": {
+  "admissions_crm": "partial",
+  "online_enrollment": "partial",
+  "student_records": "partial",
+  "guardian_household": "partial",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "partial",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "partial",
+  "standards_competency_grading": "none_or_not_documented",
+  "exams_management": "partial",
+  "report_cards_transcripts": "partial",
+  "lms_homework": "full",
+  "curriculum_planning": "partial",
+  "parent_app": "partial",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "partial",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "partial",
+  "online_payments": "partial",
+  "accounting_ledger": "none_or_not_documented",
+  "payroll_hr": "partial",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "none_or_not_documented",
+  "health_medical": "none_or_not_documented",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "none_or_not_documented",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "partial",
+  "genai_assistant": "full",
+  "predictive_analytics": "none_or_not_documented",
+  "government_statutory_reporting": "partial",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "none_or_not_documented",
+  "marketing_website_cms": "partial",
+  "open_api": "none_or_not_documented",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "none_or_not_documented",
+  "offline_mode": "partial",
+  "nocode_workflow_automation": "none_or_not_documented",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "none_or_not_documented",
+  "data_export_portability": "partial",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "none_or_not_documented",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "EduAI content generation integrated with Teachmint X classroom hardware",
+   "why_it_matters": "Teachers can create lessons, quizzes, homework, summaries and explanations within the classroom workflow."
+  },
+  {
+   "feature": "VisionX centralized classroom-device management",
+   "why_it_matters": "Administrators can monitor device activity, manage apps and settings, and coordinate updates across connected panels."
+  },
+  {
+   "feature": "Camera-based face-recognition attendance on Teachmint X",
+   "why_it_matters": "Automates attendance capture while allowing teachers to review and correct recognition results."
+  },
+  {
+   "feature": "Click X student response clickers",
+   "why_it_matters": "Enables live whole-class quiz participation and provides response and accuracy insights."
+  },
+  {
+   "feature": "Google EDLA-certified interactive panels",
+   "why_it_matters": "Provides access to Google services and Play Store apps within an enterprise-oriented classroom device."
+  },
+  {
+   "feature": "NCERT-mapped Hindi and English digital content with offline materials",
+   "why_it_matters": "Helps Indian schools align classroom resources to familiar curricula and use content with limited connectivity."
+  },
+  {
+   "feature": "CBSE Result Analyser",
+   "why_it_matters": "Turns board-result text files into Excel performance reports for school analysis."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Standalone admissions and fee-management modules are no longer available, creating procurement and migration risk for ERP buyers.",
+   "cluster": "product_uncertainty_ownership",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "Current software prices, implementation fees and enterprise limits are not publicly listed and require sales engagement.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "No public API documentation, marketplace or verified OneRoster, LTI, Ed-Fi, SIF, Clever or ClassLink support.",
+   "cluster": "fragmented_tools",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Reviewers report crashes, slow response, unresolved support requests and friction using support tickets.",
+   "cluster": "performance_reliability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Users report limited customization, rigid reports and confusing editing workflows.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "academic_coordinator"
+  },
+  {
+   "issue": "Apple reviewers report broken layouts and test-upload friction; some users also request dark mode.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "India-specific reporting such as UDISE+, APAAR, NEP holistic progress cards and state-board templates is unverified.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "accreditation_iqac"
+  },
+  {
+   "issue": "DPDP readiness, SOC 2, FERPA and COPPA certifications are not documented; schools must verify contractual safeguards.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  }
+ ],
+ "roles_well_served": [
+  "teacher_faculty",
+  "student",
+  "academic_coordinator",
+  "principal_head"
+ ],
+ "roles_poorly_served": [
+  "admissions_counsellor",
+  "accountant_bursar",
+  "accreditation_iqac",
+  "it_data_manager",
+  "librarian",
+  "transport_manager"
+ ],
+ "ai_features": [
+  "EduAI lesson-plan, quiz and homework generation",
+  "AI whiteboards and Ask Anything",
+  "Math and equation solving",
+  "Class recaps, summaries and mind maps",
+  "Voice commands, OCR and text-to-speech",
+  "AI tutor and lecture question-answering features"
+ ],
+ "pricing_model_summary": "Software pricing is quote-based and not publicly listed. Teachmint X panels have published hardware prices; app purchases include optional subscriptions and AI-tutor purchases.",
+ "biggest_strategic_gap": "The product is repositioning toward connected classrooms while core ERP modules such as standalone admissions and fees are discontinued and interoperability and compliance remain weakly documented.",
+ "_file": "02-platform-profiles/03-also-evaluated/india-11-Teachmint.md"
+}

@@ -1,0 +1,41 @@
+platform,admissions_crm,online_enrollment,student_records,guardian_household,attendance,biometric_rfid_qr_attendance,timetable_auto_scheduling,cover_substitution,gradebook,standards_competency_grading,exams_management,report_cards_transcripts,lms_homework,curriculum_planning,parent_app,student_app,teacher_mobile_app,messaging_sms_email_push,whatsapp,multilingual_ui,fees_billing,online_payments,accounting_ledger,payroll_hr,recruitment,transport_gps,hostel,library,inventory_assets,health_medical,behavior_pastoral,safeguarding,special_education_iep,mtss_early_warning,analytics_dashboards,custom_report_builder,genai_assistant,predictive_analytics,government_statutory_reporting,accreditation_obe,higher_ed_registration_degree_audit,financial_aid_scholarships,alumni_advancement_fundraising,marketing_website_cms,open_api,standards_oneroster_lti_edfi,sso,offline_mode,nocode_workflow_automation,marketplace_plugins,multi_campus_group,data_export_portability,visitor_management,canteen_cashless,placements_careers,research_management
+PowerSchool SIS,P,Y,Y,Y,Y,N,P,P,Y,Y,Y,Y,Y,P,Y,Y,P,Y,N,P,P,P,P,P,P,P,N,N,P,P,Y,P,Y,Y,Y,Y,Y,N,Y,N,N,N,N,P,N,P,N,N,P,Y,Y,P,N,P,P,N
+Ellucian,Y,P,Y,N,P,N,P,N,P,N,N,P,N,Y,N,Y,P,Y,N,N,Y,Y,Y,Y,N,N,N,N,Y,N,P,N,N,P,Y,P,Y,Y,P,N,Y,Y,Y,P,Y,N,P,N,P,P,P,P,N,P,N,N
+Arbor Education,Y,Y,Y,Y,Y,N,P,Y,Y,P,Y,Y,P,Y,Y,Y,N,Y,N,P,Y,Y,P,P,P,N,N,N,P,Y,Y,P,Y,P,Y,Y,Y,N,Y,N,N,N,N,N,Y,N,P,N,Y,P,Y,Y,N,P,N,N
+Alma SIS,Y,Y,Y,Y,Y,N,P,N,Y,Y,N,Y,P,P,P,P,N,Y,N,P,Y,Y,N,N,N,N,N,N,N,P,P,N,P,P,Y,P,N,P,Y,N,N,N,N,N,Y,P,Y,N,P,Y,Y,P,N,N,N,N
+FACTS SIS,Y,Y,Y,Y,Y,N,P,N,Y,Y,N,Y,P,P,Y,P,N,Y,N,N,Y,Y,P,N,N,N,N,N,P,Y,Y,P,N,P,Y,Y,N,P,P,N,N,Y,P,P,Y,P,P,N,P,N,Y,P,N,Y,N,N
+Workday Student,Y,Y,Y,P,N,N,N,N,P,N,N,Y,N,Y,P,P,P,Y,N,N,Y,Y,P,Y,N,N,N,N,N,N,N,N,N,N,Y,Y,P,P,P,N,Y,Y,N,P,Y,N,Y,N,Y,Y,Y,P,N,N,P,P
+Synergy Education Platform,P,Y,Y,Y,Y,N,P,P,Y,Y,Y,Y,Y,Y,Y,Y,Y,P,N,P,Y,P,N,N,N,N,N,N,N,Y,Y,P,Y,Y,Y,Y,Y,P,Y,P,N,N,N,N,P,Y,Y,N,P,P,Y,P,N,P,P,N
+Veracross,Y,Y,Y,Y,Y,N,P,N,Y,N,N,Y,Y,P,P,P,N,Y,N,N,Y,Y,Y,P,N,P,P,N,P,P,P,N,N,N,Y,Y,Y,N,N,N,N,N,Y,P,Y,N,Y,N,P,Y,P,P,N,P,P,N
+Focus School Software,P,Y,Y,Y,Y,P,Y,N,Y,Y,Y,Y,P,P,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,P,Y,Y,Y,Y,N,P,Y,N,N,N,N,N,Y,P,Y,N,Y,N,Y,Y,N,N,P,N
+Blackbaud K 12 Education Management,Y,Y,Y,Y,Y,N,Y,N,Y,P,P,Y,Y,N,P,P,P,Y,N,N,Y,Y,P,N,N,P,P,N,N,P,P,N,P,N,Y,P,P,P,N,P,N,Y,Y,P,Y,P,Y,N,P,Y,P,P,N,N,N,N
+Bromcom,P,P,Y,Y,Y,N,Y,Y,Y,P,Y,P,P,P,Y,Y,Y,Y,N,P,Y,Y,Y,P,N,N,N,N,P,Y,Y,Y,Y,P,Y,Y,Y,N,Y,N,N,N,N,N,Y,N,Y,N,P,P,Y,Y,P,Y,N,N
+Jenzabar,Y,Y,Y,N,P,N,N,N,Y,P,P,Y,Y,Y,N,Y,P,Y,N,N,Y,P,Y,Y,Y,N,Y,N,P,P,Y,P,N,P,Y,P,P,Y,Y,P,Y,Y,Y,P,Y,N,N,N,P,P,P,P,N,N,N,N
+Infinite Campus,P,Y,Y,Y,Y,P,P,N,Y,Y,P,Y,Y,P,Y,Y,P,Y,N,P,Y,Y,N,P,N,N,N,N,N,P,Y,P,Y,Y,Y,P,N,Y,Y,N,N,P,P,N,P,P,N,N,P,Y,Y,P,N,Y,N,N
+Skyward,N,Y,Y,Y,Y,P,Y,P,Y,Y,P,Y,P,P,Y,Y,Y,Y,N,N,Y,P,Y,Y,Y,N,N,N,Y,Y,Y,N,P,Y,Y,Y,P,P,Y,N,N,N,N,N,P,Y,N,N,P,P,P,Y,N,P,N,N
+Compass Education,Y,Y,Y,Y,Y,N,P,N,Y,P,N,Y,Y,P,Y,Y,Y,Y,N,N,Y,Y,Y,P,N,P,N,P,P,P,Y,P,P,N,Y,P,N,N,P,N,N,N,P,N,Y,N,P,N,P,P,Y,Y,N,Y,N,N
+Classter,Y,Y,Y,Y,Y,Y,Y,Y,Y,P,Y,Y,Y,Y,Y,Y,Y,Y,N,N,Y,Y,N,Y,Y,P,N,Y,N,P,P,N,N,P,Y,Y,N,N,P,P,P,N,P,N,Y,P,P,N,P,N,Y,Y,N,N,Y,N
+openSIS,Y,Y,Y,Y,Y,N,Y,N,Y,Y,P,Y,P,P,Y,Y,Y,Y,P,P,Y,Y,P,N,N,N,N,N,N,Y,Y,N,P,P,Y,Y,Y,P,P,N,Y,P,N,N,P,N,Y,N,P,N,Y,Y,N,N,N,N
+iSAMS,Y,Y,Y,Y,Y,N,P,Y,Y,N,Y,Y,P,Y,Y,Y,Y,Y,N,P,Y,Y,Y,P,N,P,N,N,Y,Y,Y,P,P,P,Y,P,P,N,P,N,N,N,P,P,Y,N,Y,N,P,Y,Y,P,P,P,N,N
+Anthology Student,Y,Y,Y,N,Y,N,P,N,P,P,N,P,N,P,N,P,N,P,N,P,Y,P,P,P,P,N,P,N,N,N,N,N,N,N,Y,P,P,P,Y,P,Y,Y,N,N,Y,N,P,N,P,N,Y,P,N,N,Y,N
+SIMS,P,P,Y,Y,Y,N,P,Y,Y,N,Y,Y,P,N,Y,P,P,Y,N,N,P,Y,Y,P,N,N,N,N,P,P,Y,P,P,P,Y,P,N,N,Y,N,N,N,N,N,Y,P,Y,P,N,P,Y,P,N,P,N,N
+MasterSoft ERP,Y,Y,Y,Y,Y,Y,Y,P,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,P,N,Y,P,Y,Y,N,Y,Y,Y,Y,P,P,N,N,P,Y,P,P,P,P,Y,Y,Y,Y,N,P,N,N,P,P,N,Y,Y,Y,P,P,N
+Camu,Y,Y,Y,P,Y,Y,P,N,Y,Y,Y,Y,Y,P,Y,Y,Y,Y,N,P,Y,Y,P,P,P,P,Y,P,P,P,P,N,N,N,Y,P,Y,N,P,Y,Y,Y,P,P,P,P,Y,N,N,N,Y,P,P,N,N,N
+Fedena,Y,Y,Y,Y,Y,Y,P,N,Y,P,Y,Y,P,N,Y,Y,Y,Y,N,Y,Y,Y,P,Y,N,Y,Y,Y,Y,P,P,N,N,N,Y,Y,N,N,P,N,N,N,P,P,Y,N,Y,N,P,P,Y,Y,N,N,P,N
+NextOS,Y,Y,Y,Y,Y,P,Y,Y,Y,P,Y,Y,Y,Y,Y,Y,Y,Y,Y,P,Y,Y,P,Y,N,Y,P,Y,Y,P,P,N,N,N,Y,P,P,N,N,N,N,P,N,P,N,P,P,N,P,N,Y,P,Y,P,N,N
+Academia ERP,Y,Y,Y,Y,Y,Y,P,N,Y,P,Y,Y,P,N,Y,Y,Y,Y,P,Y,Y,Y,P,P,N,P,P,P,P,P,P,N,N,P,Y,Y,Y,Y,N,P,P,P,P,P,Y,N,N,N,Y,N,Y,P,P,N,Y,N
+Skolaro,Y,Y,Y,Y,Y,Y,Y,Y,Y,P,Y,Y,Y,Y,Y,Y,Y,Y,Y,P,Y,Y,Y,Y,P,Y,Y,Y,Y,P,P,N,N,P,Y,Y,P,P,P,P,P,Y,P,P,P,N,N,N,P,N,Y,Y,P,N,N,N
+Vidyalaya School ERP,Y,Y,Y,Y,Y,P,Y,Y,Y,P,Y,Y,Y,P,Y,Y,Y,Y,P,N,Y,Y,Y,Y,P,P,P,Y,Y,Y,P,N,N,N,Y,P,P,P,P,P,N,N,P,P,N,N,N,N,N,N,P,P,N,N,N,N
+MyClassboard,Y,Y,Y,Y,Y,P,P,N,Y,P,Y,Y,Y,Y,Y,P,Y,Y,Y,P,Y,Y,P,Y,N,Y,P,Y,P,P,P,P,P,N,P,N,Y,P,P,Y,P,N,P,P,P,N,P,N,N,N,Y,P,Y,Y,N,N
+Entab CampusCare,Y,Y,Y,Y,Y,Y,P,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,P,Y,P,Y,Y,P,P,N,N,P,Y,Y,P,P,P,P,N,N,P,P,N,N,N,P,P,N,Y,Y,Y,P,N,N
+LEAD School,Y,P,Y,P,Y,N,P,N,Y,P,P,P,Y,Y,Y,Y,Y,P,N,N,Y,P,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,P,N,N,N,P,N,N,N,P,N,N,N,N,N,N,N,N
+Aeries SIS,P,Y,Y,Y,Y,P,P,N,Y,Y,Y,Y,P,N,Y,Y,Y,Y,N,P,Y,Y,P,N,N,N,N,P,P,Y,P,P,P,P,Y,Y,N,P,Y,N,N,N,P,P,Y,P,Y,P,P,N,Y,Y,N,P,P,N
+Gradelink SIS,P,P,Y,Y,Y,N,P,N,Y,Y,N,Y,P,P,Y,Y,N,P,N,N,Y,Y,P,N,N,N,N,N,N,Y,P,N,P,N,P,P,N,N,P,N,N,N,N,N,N,P,P,N,N,N,P,Y,N,P,N,N
+ManageBac,P,P,Y,Y,Y,N,P,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,P,N,N,N,N,N,N,N,N,N,N,N,N,P,N,N,N,Y,P,Y,N,N,P,N,N,N,N,Y,N,P,N,N,N,N,Y,N,N,N,N
+Oracle PeopleSoft Campus Solutions and Oracle Student Cloud,Y,Y,Y,P,Y,N,P,N,Y,P,P,Y,P,Y,P,P,P,Y,N,N,Y,Y,P,N,P,N,N,N,N,P,N,N,N,P,Y,P,N,P,Y,P,Y,Y,Y,P,Y,P,P,N,P,N,Y,P,N,N,N,N
+Gibbon,P,P,Y,Y,Y,N,P,N,Y,P,P,P,Y,Y,P,P,P,P,N,Y,Y,N,N,P,P,N,N,Y,P,P,Y,N,P,N,P,P,N,N,N,P,P,N,P,N,N,N,P,N,N,P,P,Y,N,N,N,N
+Teachmint,P,P,P,P,Y,P,P,N,P,N,P,P,Y,P,P,Y,Y,P,N,N,P,P,N,P,N,N,N,N,N,N,P,N,N,N,Y,P,Y,N,P,N,N,N,N,P,N,N,N,P,N,N,N,P,N,N,N,N
+Edunext ERP,Y,Y,Y,Y,Y,Y,P,N,Y,N,Y,P,Y,P,Y,P,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,P,P,N,N,Y,Y,N,N,P,P,N,P,P,P,N,N,N,N,P,N,Y,Y,Y,P,N,N
+OpenEduCat,Y,Y,Y,Y,Y,P,Y,Y,P,P,Y,Y,P,P,Y,Y,Y,Y,P,Y,Y,Y,Y,Y,Y,P,P,Y,Y,P,P,N,N,P,Y,P,P,P,P,P,P,P,P,P,Y,P,Y,P,P,P,Y,Y,P,N,P,P
+Toddle,N,N,P,P,Y,N,P,N,Y,Y,P,Y,Y,Y,Y,Y,Y,P,N,P,N,N,N,N,N,N,N,N,N,N,Y,N,P,N,Y,P,Y,N,N,Y,N,N,N,P,N,P,Y,N,N,N,N,P,N,N,N,N
+MyClassCampus,Y,Y,Y,P,Y,P,P,N,P,N,Y,P,Y,N,P,P,P,P,N,N,Y,Y,P,Y,P,Y,P,Y,Y,N,P,N,N,N,Y,Y,N,N,N,N,N,N,N,P,N,N,N,N,N,N,Y,N,P,P,N,N

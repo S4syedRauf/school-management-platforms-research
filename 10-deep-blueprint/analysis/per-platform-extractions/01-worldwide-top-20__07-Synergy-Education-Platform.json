@@ -1,0 +1,173 @@
+{
+ "platform": "Synergy Education Platform (Edupoint)",
+ "segments": [
+  "k12_public",
+  "k12_private_independent",
+  "government",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "partial",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "partial",
+  "gradebook": "full",
+  "standards_competency_grading": "full",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "full",
+  "curriculum_planning": "full",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "partial",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "partial",
+  "fees_billing": "full",
+  "online_payments": "partial",
+  "accounting_ledger": "none_or_not_documented",
+  "payroll_hr": "none_or_not_documented",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "none_or_not_documented",
+  "health_medical": "full",
+  "behavior_pastoral": "full",
+  "safeguarding": "partial",
+  "special_education_iep": "full",
+  "mtss_early_warning": "full",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "full",
+  "predictive_analytics": "partial",
+  "government_statutory_reporting": "full",
+  "accreditation_obe": "partial",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "none_or_not_documented",
+  "marketing_website_cms": "none_or_not_documented",
+  "open_api": "partial",
+  "standards_oneroster_lti_edfi": "full",
+  "sso": "full",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "partial",
+  "multi_campus_group": "full",
+  "data_export_portability": "partial",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "partial",
+  "placements_careers": "partial",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Shared real-time database across SIS, instruction, assessment, interventions, special services, and analytics",
+   "why_it_matters": "Connected records reduce repeated entry and let districts coordinate student workflows across departments."
+  },
+  {
+   "feature": "Configurable MTSS and early-warning workflows",
+   "why_it_matters": "Districts can define risk indicators, intervention tiers, progress measures, and notifications around local processes."
+  },
+  {
+   "feature": "Integrated IEP, 504, Medicaid, and special-education workflows",
+   "why_it_matters": "Special-services teams can manage compliance, services, caseloads, and family communication alongside student records."
+  },
+  {
+   "feature": "Assessment tools connect live results to standards analysis and instructional grouping",
+   "why_it_matters": "Teachers and leaders can use assessment results to guide re-teaching, accommodations, and family feedback."
+  },
+  {
+   "feature": "Eight role-specific mobile apps",
+   "why_it_matters": "Dedicated apps support families, students, teachers, administrators, nurses, counselors, special educators, and kiosks."
+  },
+  {
+   "feature": "Generative AI with user review and PII tokenization",
+   "why_it_matters": "Staff can draft plans, comments, and content while retaining review responsibility and reducing exposure of identifying data."
+  },
+  {
+   "feature": "OneRoster, Ed-Fi, SIF, and nearly 400 LTI integrations",
+   "why_it_matters": "Standards-based connections support district data exchange, rostering, grade passback, and learning-tool integrations."
+  },
+  {
+   "feature": "Online registration and lottery with weighted placement, waitlists, and audit trails",
+   "why_it_matters": "Districts can manage multilingual enrollment and complex choice programs within connected workflows."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Users report slowness, errors, inconvenience, and wasted time.",
+   "cluster": "performance_reliability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "The new gradebook is described by reviewers as less friendly, with glitches and iPad printing limits.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Reviewers cite a steep learning curve and complex implementation.",
+   "cluster": "complexity_usability",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "ParentVUE and StudentVUE iOS apps receive low ratings, with complaints about missing features, duplicate notifications, freezing, and interface regressions.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "Synergy LMS reviewers report low value-for-money ratings.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Pricing is quote-only, with no public price list or implementation-fee schedule.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Some desired functions are unavailable, according to reviewer feedback.",
+   "cluster": "other",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "Public documentation does not describe a broad developer portal or open marketplace.",
+   "cluster": "fragmented_tools",
+   "affected_role": "it_data_manager"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "teacher_faculty",
+  "counsellor_senco_safeguarding",
+  "parent",
+  "student",
+  "government_inspector",
+  "it_data_manager"
+ ],
+ "roles_poorly_served": [
+  "owner_trustee_group_ceo",
+  "teacher_faculty",
+  "parent",
+  "student",
+  "it_data_manager"
+ ],
+ "ai_features": [
+  "Generates lesson plans, course content, assignments, tests, and study guides.",
+  "Drafts report-card comments, intervention plans, discipline and health notes, and special-education summaries.",
+  "Assists with Synergy Mail composition.",
+  "Requires user review and tokenizes personally identifiable information before prompts are sent to ChatGPT."
+ ],
+ "pricing_model_summary": "No public prices; district-specific quote and demonstration. Pricing may depend on students or school sites, selected modules, and implementation or support services.",
+ "biggest_strategic_gap": "Broad district functionality is offset by reported usability, performance, and mobile-app concerns; pricing and implementation details are not publicly transparent.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/07-Synergy-Education-Platform.md"
+}

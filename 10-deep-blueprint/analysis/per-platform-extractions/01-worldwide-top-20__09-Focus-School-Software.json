@@ -1,0 +1,160 @@
+{
+ "platform": "Focus School Software: hybrid, web-based K–12 SIS and ERP with SaaS/AWS and customer-hosted deployment options.",
+ "segments": [
+  "k12_public",
+  "coaching_vocational",
+  "higher_ed"
+ ],
+ "coverage": {
+  "admissions_crm": "partial",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "partial",
+  "timetable_auto_scheduling": "full",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "full",
+  "standards_competency_grading": "full",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "partial",
+  "curriculum_planning": "partial",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "full",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "full",
+  "payroll_hr": "full",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "full",
+  "health_medical": "full",
+  "behavior_pastoral": "full",
+  "safeguarding": "partial",
+  "special_education_iep": "full",
+  "mtss_early_warning": "full",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "none_or_not_documented",
+  "predictive_analytics": "partial",
+  "government_statutory_reporting": "full",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "none_or_not_documented",
+  "marketing_website_cms": "none_or_not_documented",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "partial",
+  "sso": "full",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "full",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "full",
+  "data_export_portability": "full",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "none_or_not_documented",
+  "placements_careers": "partial",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Extensive U.S. state reporting with validation, verification, corrections, and upload-ready extracts.",
+   "why_it_matters": "Districts can manage jurisdiction-specific submissions and data corrections within the SIS."
+  },
+  {
+   "feature": "Elementary scheduling optimization and secondary schedule-building scenarios.",
+   "why_it_matters": "Schools can test constraints and distribute students or course sections before finalizing schedules."
+  },
+  {
+   "feature": "Assessment supports 52 item types and IEP-linked text-to-speech accommodations.",
+   "why_it_matters": "Districts can create varied assessments and apply documented accommodations in delivery."
+  },
+  {
+   "feature": "What-if enrollment projections use five years of history and can incorporate county population projections.",
+   "why_it_matters": "District leaders can use enrollment scenarios for forward planning."
+  },
+  {
+   "feature": "Form Builder and workflow triggers support validations, approvals, e-signatures, and alerts.",
+   "why_it_matters": "Districts can configure forms and processes around local administrative requirements."
+  },
+  {
+   "feature": "Communications can automatically translate messages into more than 70 languages.",
+   "why_it_matters": "Schools can communicate with families across many language groups."
+  },
+  {
+   "feature": "Unified SIS and ERP share a login, interface, and database.",
+   "why_it_matters": "Student, finance, HR, and payroll workflows operate within one platform."
+  },
+  {
+   "feature": "Attendance kiosk and mobile scanner support sign-in, tardies, and printed slips.",
+   "why_it_matters": "Schools can extend attendance workflows to physical check-in and tardy operations."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "District SIS/ERP pricing is quote-only, with no public subscription baseline.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Reviewers report crashes, slowness, or intermittent outages; some say downtime may be district-specific.",
+   "cluster": "performance_reliability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Users describe cluttered or dated navigation, many clicks, and limited screen personalization.",
+   "cluster": "complexity_usability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Teachers report feature-discovery, training, and support gaps; reviewers cite difficulty printing report cards.",
+   "cluster": "support_implementation",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Native transport, library, hostel, alumni, and fundraising modules are not documented; some functions rely on integrations.",
+   "cluster": "fragmented_tools",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "Public materials do not establish SOC 2 or ISO 27001 certification or GDPR/DPDP compliance.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "teacher_faculty",
+  "counsellor_senco_safeguarding",
+  "hr_manager",
+  "it_data_manager",
+  "parent",
+  "student",
+  "government_inspector"
+ ],
+ "roles_poorly_served": [
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "alumni"
+ ],
+ "ai_features": [
+  "No production generative-AI assistant or copilot is documented.",
+  "What-if Analysis projects enrollment using historical data and optional county population projections; it is described as statistical, not AI."
+ ],
+ "pricing_model_summary": "District SIS/ERP pricing is quote-only; no public subscription rate card, per-student rate, or implementation fee is documented. Attendance hardware has separate listed prices.",
+ "biggest_strategic_gap": "Several adjacent functions—including transport, library, hostel, alumni, and fundraising—lack documented native modules, while AI-assistant capabilities are absent.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/09-Focus-School-Software.md"
+}

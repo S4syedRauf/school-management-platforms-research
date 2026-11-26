@@ -1,0 +1,43 @@
+# name, impact(1-5), frequency(1-5), gap(1-5; 5 = white space), effort(1-5), release
+F=[
+("Offline 3-second attendance register",5,5,5,3,"R1"),
+("Family app (one login, all children, Today timeline)",5,5,4,3,"R1"),
+("Channel waterfall (push/WhatsApp/SMS/IVR) + auto-translation",5,5,5,3,"R1"),
+("Fees + family wallet + UPI AutoPay + auto-reconciliation",5,4,4,4,"R1"),
+("Unified person/household record + org hierarchy",5,5,3,4,"R0"),
+("Acadyne Switch importers (Excel, Fedena, Teachmint, Entab) + data-quality report",5,2,5,3,"R1"),
+("Gradebook + report-card designer (CBSE/state presets)",5,4,2,3,"R1"),
+("Command bar + Today screens",4,5,4,2,"R1"),
+("Auto-cover with fairness",4,5,5,2,"R1"),
+("Principal Morning Brief",4,5,5,2,"R2"),
+("Document desk (TC, bonafide, QR-verified)",4,4,3,2,"R1"),
+("Transport: phone-as-GPS, ETA, boarding scans",4,5,4,3,"R2"),
+("PARAKH HPC + competency tracking",4,3,5,3,"R2"),
+("UDISE+ / APAAR adapters + data-quality engine",5,2,5,3,"R2"),
+("DPDP consent ledger + Trust Center",5,2,5,3,"R2"),
+("Constraint timetabler (OR-Tools)",4,2,3,4,"R2"),
+("Admissions CRM + growth engine",4,4,3,3,"R2"),
+("Double-entry ledger + GST + Tally sync",4,4,3,4,"R2"),
+("Indian payroll + staff compliance wallet",4,2,4,4,"R2"),
+("Hostel out-pass + night roll call",3,5,5,2,"R2"),
+("Library (phone circulation, Koha connector)",3,4,4,2,"R2"),
+("Safeguarding case management + Safe Voice",5,2,5,3,"R2"),
+("Exam cell (seating, barcoding, timed result publication)",4,2,4,4,"R3"),
+("OBE engine + NAAC/NBA/NIRF/AISHE Autopilot",5,2,5,4,"R3"),
+("HE registration, degree audit, ABC/DigiLocker credentials",4,3,5,4,"R3"),
+("LTI 1.3 + OneRoster 1.2 certified",4,3,5,3,"R3"),
+("Placements + alumni",3,2,5,3,"R3"),
+("Research office module",3,2,5,3,"R4"),
+("Ask Acadyne copilot (local + cloud, cited)",5,4,3,4,"R3"),
+("Explainable early warning",4,3,4,3,"R4"),
+("Group Control Tower (template inheritance, consolidation)",5,3,4,4,"R4"),
+("Owner Pulse + 13-week cash forecast + leakage alerts",5,3,5,3,"R3"),
+("Website builder (live-data Digital Front Door)",3,2,5,3,"R3"),
+("Crisis Mode",5,1,5,2,"R3"),
+("Benchmark Commons",3,2,5,3,"R4"),
+("Plug-in marketplace",3,2,4,4,"R4"),
+]
+rows=[(n,i,f,g,e,r,round(i*f*g/e,1)) for n,i,f,g,e,r in F]
+rows.sort(key=lambda x:-x[6])
+print("| Rank | Feature | Impact | Frequency | Gap | Effort | Priority score | Release |\n|---:|---|---:|---:|---:|---:|---:|---|")
+for k,(n,i,f,g,e,r,s) in enumerate(rows,1): print(f"| {k} | {n} | {i} | {f} | {g} | {e} | {s} | {r} |")

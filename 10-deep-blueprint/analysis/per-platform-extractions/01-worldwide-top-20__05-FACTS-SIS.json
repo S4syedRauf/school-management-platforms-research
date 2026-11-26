@@ -1,0 +1,160 @@
+{
+ "platform": "Cloud SaaS and web-based SIS with native iOS and Android family apps; no current desktop client or on-premise deployment documented.",
+ "segments": [
+  "k12_private_independent"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "full",
+  "standards_competency_grading": "full",
+  "exams_management": "none_or_not_documented",
+  "report_cards_transcripts": "full",
+  "lms_homework": "partial",
+  "curriculum_planning": "partial",
+  "parent_app": "full",
+  "student_app": "partial",
+  "teacher_mobile_app": "none_or_not_documented",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "partial",
+  "payroll_hr": "none_or_not_documented",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "partial",
+  "health_medical": "full",
+  "behavior_pastoral": "full",
+  "safeguarding": "partial",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "partial",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "none_or_not_documented",
+  "predictive_analytics": "partial",
+  "government_statutory_reporting": "partial",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "full",
+  "alumni_advancement_fundraising": "partial",
+  "marketing_website_cms": "partial",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "partial",
+  "sso": "partial",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "full",
+  "data_export_portability": "partial",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "full",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "FACTS IQ connects SIS, admissions, finance, engagement, and analytics data.",
+   "why_it_matters": "Schools can link applicant, family, academic, and financial workflows while reducing duplicate data entry."
+  },
+  {
+   "feature": "Dashboard Builder provides configurable, shareable dashboards using live SIS data.",
+   "why_it_matters": "School leaders can examine operational data without relying solely on exported spreadsheets."
+  },
+  {
+   "feature": "Admissions analytics cover yield, retention, affordability, and financial-aid impact.",
+   "why_it_matters": "Admissions teams can assess enrollment patterns alongside financial factors."
+  },
+  {
+   "feature": "Medical and behavior workflows share student records, including medication scheduling, incidents, interventions, and family alerts.",
+   "why_it_matters": "Staff can coordinate health and behavior documentation with academic and family records."
+  },
+  {
+   "feature": "Public OneRoster 1.1 API documents OAuth access and roster resources.",
+   "why_it_matters": "Schools have a documented path to exchange roster data with compatible systems."
+  },
+  {
+   "feature": "Family App combines grades, attendance, homework, announcements, schedules, medical information, and tuition access.",
+   "why_it_matters": "Families can reach common school information and payment functions through a mobile hub."
+  },
+  {
+   "feature": "Cafeteria tools include menus, prepaid balances, POS barcode scanning, and lunch activity.",
+   "why_it_matters": "Schools can connect lunch operations with student and family workflows."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Pricing is quote-only, with no published SIS rate or standard implementation fee.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Reviewers report a learning curve, click-heavy navigation, bugs, outages, and difficult reports.",
+   "cluster": "complexity_usability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Some reviewers describe clunky reports, limited trend views, and unclear roadmap communication.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "Family App reviewers report forced reauthentication, password resets, delayed grades, crashes, and confusing navigation.",
+   "cluster": "performance_reliability",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "Email delivery, authentication, repeated logins, account synchronization, and support handoffs have prompted complaints.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Transport, library, boarding, payroll, and IEP management are not clearly documented as native U.S. SIS modules.",
+   "cluster": "segment_limited",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "The broader ecosystem can involve multiple products and logins, with setup work and a learning curve.",
+   "cluster": "fragmented_tools",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Public U.S. documentation does not enumerate all state or federal reporting templates.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "government_inspector"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "teacher_faculty",
+  "parent",
+  "student"
+ ],
+ "roles_poorly_served": [
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "hr_manager",
+  "counsellor_senco_safeguarding",
+  "government_inspector"
+ ],
+ "ai_features": [
+  "FACTS advertises admissions yield predictions and AI-supported pattern detection and proactive alerts as roadmap capabilities; a production conversational assistant is not documented."
+ ],
+ "pricing_model_summary": "No public SIS price card; sales quotation required. Family App is listed at $4.99 per family annually; a third-party API connection is reported at $500 annually.",
+ "biggest_strategic_gap": "Native depth is unclear for transport, library, boarding, payroll, IEP management, and jurisdiction-specific reporting; broad capabilities also span connected products rather than one SIS module.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/05-FACTS-SIS.md"
+}

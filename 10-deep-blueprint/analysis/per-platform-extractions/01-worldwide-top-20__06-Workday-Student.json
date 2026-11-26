@@ -1,0 +1,161 @@
+{
+ "platform": "Workday Student is a cloud SaaS, browser-based higher-education SIS with responsive web access and a shared Workday iOS/Android app.",
+ "segments": [
+  "higher_ed",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "partial",
+  "attendance": "none_or_not_documented",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "none_or_not_documented",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "partial",
+  "standards_competency_grading": "none_or_not_documented",
+  "exams_management": "none_or_not_documented",
+  "report_cards_transcripts": "full",
+  "lms_homework": "none_or_not_documented",
+  "curriculum_planning": "full",
+  "parent_app": "partial",
+  "student_app": "partial",
+  "teacher_mobile_app": "partial",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "partial",
+  "payroll_hr": "full",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "none_or_not_documented",
+  "health_medical": "none_or_not_documented",
+  "behavior_pastoral": "none_or_not_documented",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "none_or_not_documented",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "partial",
+  "predictive_analytics": "partial",
+  "government_statutory_reporting": "partial",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "full",
+  "financial_aid_scholarships": "full",
+  "alumni_advancement_fundraising": "none_or_not_documented",
+  "marketing_website_cms": "partial",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "full",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "full",
+  "marketplace_plugins": "full",
+  "multi_campus_group": "full",
+  "data_export_portability": "partial",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "none_or_not_documented",
+  "placements_careers": "partial",
+  "research_management": "partial"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Unified student-worker identity",
+   "why_it_matters": "A shared identity links academic records with campus employment, work hours, funding, and pay."
+  },
+  {
+   "feature": "Financial-aid recalculation tied to student changes",
+   "why_it_matters": "Registration, residency, or enrollment changes can trigger updated aid calculations and account information."
+  },
+  {
+   "feature": "Transfer-credit lifecycle tools",
+   "why_it_matters": "Institutions can evaluate credit before matriculation, troubleshoot equivalencies, and reassess them after program changes."
+  },
+  {
+   "feature": "Configurable business processes and academic rules",
+   "why_it_matters": "Institutions can adapt workflows and policies across departments without custom-code processes."
+  },
+  {
+   "feature": "AI administration agents",
+   "why_it_matters": "Agents target transcript processing, transfer-credit evaluation, and academic-requirements management; availability should be confirmed."
+  },
+  {
+   "feature": "Shared student, employee, finance, grants, and planning data",
+   "why_it_matters": "A common data model supports real-time cross-campus reporting and institutional decisions."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Reviews report confusing navigation, unintuitive menus, duplicated paths, and a steep learning curve.",
+   "cluster": "complexity_usability",
+   "affected_role": "student"
+  },
+  {
+   "issue": "Reviews describe slow page loads, occasional downtime, and performance concerns around upgrades.",
+   "cluster": "performance_reliability",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "The mobile app supports fewer functions than the web experience, and Student Hubs are browser-only.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "student"
+  },
+  {
+   "issue": "Ohio State abandoned its implementation effort after substantial investment, illustrating large-project disruption and delivery risk.",
+   "cluster": "support_implementation",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "No public price list or implementation fee is available; pricing requires a negotiated institutional quote.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Institutions needing attendance, transport, library, health, discipline, special education, boarding, or alumni tools need other products or integrations.",
+   "cluster": "segment_limited",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "Workday does not publicly identify one universal Student hosting region; institutions must confirm tenant data residency contractually.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  }
+ ],
+ "roles_well_served": [
+  "owner_trustee_group_ceo",
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "dean_hod",
+  "teacher_faculty",
+  "it_data_manager",
+  "parent",
+  "student",
+  "hr_manager"
+ ],
+ "roles_poorly_served": [
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "counsellor_senco_safeguarding",
+  "alumni",
+  "government_inspector"
+ ],
+ "ai_features": [
+  "AI-powered search and assistance in Student Hubs",
+  "AI guidance and recommendations",
+  "Predictive views, including at-risk-student and top-application signals",
+  "Student Administration Agent for transcript processing, transfer-credit evaluation, and academic requirements",
+  "Some agent capabilities are newly announced; confirm general availability contractually."
+ ],
+ "pricing_model_summary": "No public price list, per-student rate, implementation fee, or free trial; institutional subscription pricing is negotiated and quote-based.",
+ "biggest_strategic_gap": "The platform is higher-education-focused, not a complete K–12 suite; major projects can be costly and disruptive, and some adjacent needs require integrations.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/06-Workday-Student.md"
+}

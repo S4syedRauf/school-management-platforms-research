@@ -1,0 +1,176 @@
+{
+ "platform": "Cloud-first SaaS and browser-based platform with native iOS and Android apps; no desktop client or on-premise deployment documented.",
+ "segments": [
+  "preschool",
+  "k12_public",
+  "k12_private_independent",
+  "international_ib",
+  "coaching_vocational",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "partial",
+  "timetable_auto_scheduling": "full",
+  "cover_substitution": "full",
+  "gradebook": "full",
+  "standards_competency_grading": "partial",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "full",
+  "curriculum_planning": "full",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "full",
+  "multilingual_ui": "partial",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "partial",
+  "payroll_hr": "full",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "full",
+  "hostel": "partial",
+  "library": "full",
+  "inventory_assets": "full",
+  "health_medical": "partial",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "none_or_not_documented",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "partial",
+  "genai_assistant": "partial",
+  "predictive_analytics": "none_or_not_documented",
+  "government_statutory_reporting": "none_or_not_documented",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "partial",
+  "alumni_advancement_fundraising": "none_or_not_documented",
+  "marketing_website_cms": "partial",
+  "open_api": "none_or_not_documented",
+  "standards_oneroster_lti_edfi": "partial",
+  "sso": "partial",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "full",
+  "data_export_portability": "partial",
+  "visitor_management": "full",
+  "canteen_cashless": "partial",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Integrated ERP, LMS, assessment, and board-aligned content stack.",
+   "why_it_matters": "Connects administration, teaching, assessment, and learning content within one product family."
+  },
+  {
+   "feature": "Adaptive assessments using Item Response Theory and Knowledge Space Theory claims.",
+   "why_it_matters": "Can adjust question difficulty and provide concept-level learning analytics."
+  },
+  {
+   "feature": "AI-proctored exams and automated question-paper generation.",
+   "why_it_matters": "Supports exam delivery and creation across online, offline, and hybrid workflows."
+  },
+  {
+   "feature": "Mobile geo-facial staff attendance.",
+   "why_it_matters": "Combines face verification and geofencing without requiring external biometric terminals."
+  },
+  {
+   "feature": "Student Wallet and school eStore.",
+   "why_it_matters": "Enables traceable, pre-funded purchases for school fees, events, activities, and supplies."
+  },
+  {
+   "feature": "NFC transport attendance using an attendant’s phone.",
+   "why_it_matters": "Records student boarding while GPS and alerts inform parents about journeys."
+  },
+  {
+   "feature": "White-labelled role-based mobile app and website.",
+   "why_it_matters": "Allows schools to provide branded digital access for families and staff."
+  },
+  {
+   "feature": "Large India-oriented content and question bank claims.",
+   "why_it_matters": "Offers board-mapped content and a broad question bank for varied assessment needs."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Public module-by-module pricing, implementation SLA, and premium-tier details are unavailable; published price ranges are broad.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Independent reviews cite lengthy setup and training.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Independent feedback cites weak reporting and limited integration options.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "Independent reviews report support gaps.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "App reviews report key-expiry problems, slow loading, frozen video, audio issues, and missing homework.",
+   "cluster": "performance_reliability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "App-store privacy disclosures conflict; public materials do not establish DPDP readiness or retention and deletion controls.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Public materials do not document UDISE+ or APAAR reporting, GST invoicing, or higher-education statutory reporting.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "government_inspector"
+  },
+  {
+   "issue": "Hostel workflows are listed but not sufficiently described in reviewed public materials.",
+   "cluster": "segment_limited",
+   "affected_role": "hostel_warden"
+  }
+ ],
+ "roles_well_served": [
+  "owner_trustee_group_ceo",
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "teacher_faculty",
+  "transport_manager",
+  "librarian",
+  "hr_manager",
+  "parent",
+  "student"
+ ],
+ "roles_poorly_served": [
+  "hostel_warden",
+  "counsellor_senco_safeguarding",
+  "government_inspector",
+  "it_data_manager"
+ ],
+ "ai_features": [
+  "AI-proctored examinations",
+  "Adaptive assessments using Item Response Theory and Knowledge Space Theory claims",
+  "Automated question-paper generation",
+  "Mobile geo-facial staff attendance",
+  "AI-powered doubt or learning assistance claims; production scope is not documented"
+ ],
+ "pricing_model_summary": "Modular, quote-based pricing; official pages give indicative ranges of ₹7–₹155 per student monthly for ERP packages and ₹20–₹50 for LMS. No public rate card or USD pricing.",
+ "biggest_strategic_gap": "Limited public evidence for open APIs, statutory reporting, formal security certifications, and data-lifecycle controls may complicate integration and compliance validation.",
+ "_file": "02-platform-profiles/02-india-top-10/04-NextOS.md"
+}

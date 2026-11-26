@@ -1,0 +1,176 @@
+{
+ "platform": "Cloud SaaS and web-based K–12 teaching-and-learning platform with Toddle Family, Toddle Educator, and Toddle Student mobile apps; no on-premise deployment documented.",
+ "segments": [
+  "k12_public",
+  "k12_private_independent",
+  "international_ib"
+ ],
+ "coverage": {
+  "admissions_crm": "none_or_not_documented",
+  "online_enrollment": "none_or_not_documented",
+  "student_records": "partial",
+  "guardian_household": "partial",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "full",
+  "standards_competency_grading": "full",
+  "exams_management": "partial",
+  "report_cards_transcripts": "full",
+  "lms_homework": "full",
+  "curriculum_planning": "full",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "partial",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "partial",
+  "fees_billing": "none_or_not_documented",
+  "online_payments": "none_or_not_documented",
+  "accounting_ledger": "none_or_not_documented",
+  "payroll_hr": "none_or_not_documented",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "none_or_not_documented",
+  "health_medical": "none_or_not_documented",
+  "behavior_pastoral": "full",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "partial",
+  "mtss_early_warning": "none_or_not_documented",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "partial",
+  "genai_assistant": "full",
+  "predictive_analytics": "none_or_not_documented",
+  "government_statutory_reporting": "none_or_not_documented",
+  "accreditation_obe": "full",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "none_or_not_documented",
+  "marketing_website_cms": "partial",
+  "open_api": "none_or_not_documented",
+  "standards_oneroster_lti_edfi": "partial",
+  "sso": "full",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "none_or_not_documented",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "none_or_not_documented",
+  "data_export_portability": "partial",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "none_or_not_documented",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Curriculum-first workflows connect maps, standards, units, lessons, assessments, and student evidence.",
+   "why_it_matters": "Schools can coordinate curriculum planning and assessment without treating the LMS as merely a file repository."
+  },
+  {
+   "feature": "AI tools span curriculum design, assessment creation, grading, reporting, communication, and analytics.",
+   "why_it_matters": "Educators can use AI across connected workflows while retaining review and control."
+  },
+  {
+   "feature": "Teacher-configured AI Tutors include conversation visibility and safety flags.",
+   "why_it_matters": "Schools can offer individualized student practice with educator oversight."
+  },
+  {
+   "feature": "Portfolio evidence can flow into progress reports and transcripts.",
+   "why_it_matters": "Schools can present longitudinal learning evidence alongside grades."
+  },
+  {
+   "feature": "Accreditation Management includes evidence, reviews, feedback, and frameworks for 15+ accrediting bodies.",
+   "why_it_matters": "Schools can organize accreditation work and evidence in the same platform as teaching workflows."
+  },
+  {
+   "feature": "AI Insights accepts natural-language questions and returns charts, tables, and suggested actions.",
+   "why_it_matters": "School leaders can explore performance, attendance, and behaviour data without relying only on fixed dashboards."
+  },
+  {
+   "feature": "Communication supports automatic translation across 100+ languages.",
+   "why_it_matters": "Schools can make family communications more accessible across language communities."
+  },
+  {
+   "feature": "Toddle Buddy pairs schools with a former educator for migration, onboarding, and adoption support.",
+   "why_it_matters": "Educator-informed implementation support can help schools adopt connected teaching workflows."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Pricing is quote-based, with no public INR or USD benchmark.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Users report a learning curve and workflows that can feel overwhelming.",
+   "cluster": "complexity_usability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Reviewers report multiple clicks, slow loading, and frequent interface changes.",
+   "cluster": "performance_reliability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Some secondary users find the gradebook card-heavy and rely on spreadsheets or Google Classroom.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "academic_coordinator"
+  },
+  {
+   "issue": "Users request more customization and granular defaults; some AI outputs need correction.",
+   "cluster": "other",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Apple ratings are low for Toddle Student and Toddle Family, with reported lag, crashes, and confusing navigation.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "Mobile users report missing assignments, login or region errors, and deleted work.",
+   "cluster": "performance_reliability",
+   "affected_role": "student"
+  },
+  {
+   "issue": "Native Indian fee accounting, payment gateways, payroll, transport, hostel, library, and inventory are undocumented.",
+   "cluster": "segment_limited",
+   "affected_role": "accountant_bursar"
+  },
+  {
+   "issue": "Indian statutory reporting such as UDISE+ and APAAR is unverified.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "government_inspector"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "teacher_faculty",
+  "parent",
+  "student",
+  "accreditation_iqac"
+ ],
+ "roles_poorly_served": [
+  "accountant_bursar",
+  "hr_manager",
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "government_inspector"
+ ],
+ "ai_features": [
+  "Curriculum Design Assistant",
+  "Assessment Builder",
+  "Grading Assistant",
+  "Report Writing Assistant",
+  "Writing Assistant",
+  "Teacher-configured AI Tutors with safety flags",
+  "AI Insights with natural-language queries, charts, tables, and suggested actions",
+  "AI communication drafting and thread summaries"
+ ],
+ "pricing_model_summary": "Three plans—Planning Pro, Advanced, and Ultimate—with tailored quote-based pricing by school or user count; free trial and two- or three-year discounts are offered.",
+ "biggest_strategic_gap": "Toddle offers connected academic workflows but lacks documented native ERP capabilities such as fees, accounting, payroll, transport, and Indian statutory reporting.",
+ "_file": "02-platform-profiles/03-also-evaluated/india-14-Toddle.md"
+}

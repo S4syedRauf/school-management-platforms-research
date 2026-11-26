@@ -1,0 +1,152 @@
+{
+ "platform": "Skyward Qmlativ and legacy SMS 2.0; web-based SIS/ERP with cloud hosting and native iOS/Android apps.",
+ "segments": [
+  "k12_public"
+ ],
+ "coverage": {
+  "admissions_crm": "none_or_not_documented",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "partial",
+  "timetable_auto_scheduling": "full",
+  "cover_substitution": "partial",
+  "gradebook": "full",
+  "standards_competency_grading": "full",
+  "exams_management": "partial",
+  "report_cards_transcripts": "full",
+  "lms_homework": "partial",
+  "curriculum_planning": "partial",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "full",
+  "online_payments": "partial",
+  "accounting_ledger": "full",
+  "payroll_hr": "full",
+  "recruitment": "full",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "full",
+  "health_medical": "full",
+  "behavior_pastoral": "full",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "partial",
+  "mtss_early_warning": "full",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "partial",
+  "predictive_analytics": "partial",
+  "government_statutory_reporting": "full",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "none_or_not_documented",
+  "marketing_website_cms": "none_or_not_documented",
+  "open_api": "partial",
+  "standards_oneroster_lti_edfi": "full",
+  "sso": "none_or_not_documented",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "partial",
+  "multi_campus_group": "partial",
+  "data_export_portability": "full",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "partial",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "DistrictPulse analytics with dashboards, custom reporting, trend forecasting, and staffing/intervention analysis.",
+   "why_it_matters": "District leaders can examine trends and inform staffing or intervention decisions using SIS data."
+  },
+  {
+   "feature": "Configurable MTSS Watchlists and intervention plans.",
+   "why_it_matters": "District-defined thresholds can surface students needing attention and track intervention progress."
+  },
+  {
+   "feature": "Ed-Fi API v4, OneRoster 1.1, SIF, and 1EdTech data-privacy certification claims.",
+   "why_it_matters": "Standards-based interoperability can reduce bespoke rostering and data-exchange work."
+  },
+  {
+   "feature": "Customizable online enrollment forms and workflows.",
+   "why_it_matters": "Districts can adapt registration requirements and review steps to local processes."
+  },
+  {
+   "feature": "District-wide SIS and finance/HR ERP in a shared data estate.",
+   "why_it_matters": "Student administration and business operations can be managed within one consolidated platform."
+  },
+  {
+   "feature": "Report Writer with drag-and-drop layouts and access to every field.",
+   "why_it_matters": "District staff can create tailored reports and control how results are distributed."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Reviews report cluttered legacy screens, difficult navigation, and steep learning curves.",
+   "cluster": "complexity_usability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Mobile app reviews cite login failures, freezing, biometric problems, outdated UI, and repeated relogins.",
+   "cluster": "performance_reliability",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "Qmlativ migration may require reports, security, and workflows to be rebuilt or reconfigured.",
+   "cluster": "lockin_migration",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Reviewers report awkward handling of A/B-day or period-based schedules.",
+   "cluster": "other",
+   "affected_role": "academic_coordinator"
+  },
+  {
+   "issue": "Some reviewers describe reporting as difficult, slow, or expensive.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "Official prices and implementation, migration, hosting, and module fees are not publicly itemized.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "The reviewed Trust Center did not publish SOC 2 or ISO 27001 certification evidence.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "teacher_faculty",
+  "parent",
+  "student",
+  "hr_manager",
+  "it_data_manager"
+ ],
+ "roles_poorly_served": [
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "alumni",
+  "accreditation_iqac"
+ ],
+ "ai_features": [
+  "AI-assisted guidance in the Qmlativ Help Center; no general-purpose workflow copilot is documented."
+ ],
+ "pricing_model_summary": "No public official price sheet; sales quote required. Third-party listings estimate $30,000 annually, with unit and implementation costs unverified.",
+ "biggest_strategic_gap": "Not a documented full LMS or suite for transport, library, boarding, alumni, or fundraising; mobile ratings are also notably weak.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/14-Skyward.md"
+}

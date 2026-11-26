@@ -1,0 +1,156 @@
+{
+ "platform": "Bromcom cloud SaaS and web-based MIS hosted on Microsoft Azure, with native iOS and Android apps.",
+ "segments": [
+  "k12_public",
+  "k12_private_independent",
+  "multi_campus_group",
+  "government"
+ ],
+ "coverage": {
+  "admissions_crm": "partial",
+  "online_enrollment": "partial",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "full",
+  "cover_substitution": "full",
+  "gradebook": "full",
+  "standards_competency_grading": "partial",
+  "exams_management": "full",
+  "report_cards_transcripts": "partial",
+  "lms_homework": "partial",
+  "curriculum_planning": "partial",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "partial",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "full",
+  "payroll_hr": "partial",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "partial",
+  "health_medical": "full",
+  "behavior_pastoral": "full",
+  "safeguarding": "full",
+  "special_education_iep": "full",
+  "mtss_early_warning": "partial",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "full",
+  "predictive_analytics": "none_or_not_documented",
+  "government_statutory_reporting": "full",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "none_or_not_documented",
+  "marketing_website_cms": "none_or_not_documented",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "full",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "partial",
+  "multi_campus_group": "full",
+  "data_export_portability": "full",
+  "visitor_management": "partial",
+  "canteen_cashless": "full",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Integrated MIS and school finance",
+   "why_it_matters": "Links pupil, staff, purchasing, budgeting, statutory finance and parent payments in one cloud platform."
+  },
+  {
+   "feature": "MAT Vision cross-school analytics",
+   "why_it_matters": "Trust teams can consolidate data across Bromcom and non-Bromcom schools, drill down and cascade configuration."
+  },
+  {
+   "feature": "Embedded Bromcom AI workflows",
+   "why_it_matters": "Staff can draft lesson plans, quizzes, homework and communications, translate content and automatically mark approved quizzes."
+  },
+  {
+   "feature": "Dynamic groups and automated actions",
+   "why_it_matters": "Rules based on attendance, behaviour, assessment and demographics can trigger cohorts, alerts, letters and follow-ups."
+  },
+  {
+   "feature": "UK statutory reporting depth",
+   "why_it_matters": "Supports DfE, workforce, Welsh, Catholic and CFR/EFSA reporting aligned to UK school requirements."
+  },
+  {
+   "feature": "Multi-child parent account",
+   "why_it_matters": "Parents can manage information, consent, appointments and payments for multiple children from one account."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Trustpilot complaints cite slow loading, crashes, login problems, confusing interface and difficult reporting.",
+   "cluster": "performance_reliability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Mobile app reviews report login failures, lag, homework and timetable problems, and crashes.",
+   "cluster": "performance_reliability",
+   "affected_role": "student"
+  },
+  {
+   "issue": "A Teacher App review reported crashes while taking registers.",
+   "cluster": "performance_reliability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Public pricing is quote-based; available detailed G-Cloud prices are dated, complicating budgeting.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "September 2026 SSO-registration incident involved unauthorised access to some registration email addresses.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Independent enterprise-user review evidence is thin, with no verified G2 reviews found.",
+   "cluster": "other",
+   "affected_role": "owner_trustee_group_ceo"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "teacher_faculty",
+  "counsellor_senco_safeguarding",
+  "it_data_manager",
+  "parent",
+  "student",
+  "owner_trustee_group_ceo",
+  "government_inspector"
+ ],
+ "roles_poorly_served": [
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "alumni"
+ ],
+ "ai_features": [
+  "MIS-integrated co-pilot for general queries",
+  "Drafts lesson plans, quizzes, homework, letters and emails",
+  "Supports multilingual translation and tone or length controls",
+  "Automatically marks approved quizzes",
+  "Internal-data insights and pupil-report summaries are described as coming soon"
+ ],
+ "pricing_model_summary": "Quote-based per-pupil packages; dated February 2025 G-Cloud schedule lists MIS and Finance rates. Support, onboarding, payments, SMS and SMTP may add costs.",
+ "biggest_strategic_gap": "Native transport, library, boarding, alumni and full payroll are not evidenced; OneRoster, LTI and Ed-Fi certification is also unverified.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/11-Bromcom.md"
+}

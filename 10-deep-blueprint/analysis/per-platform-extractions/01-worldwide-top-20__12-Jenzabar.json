@@ -1,0 +1,185 @@
+{
+ "platform": "Jenzabar One: a hybrid higher-education platform with browser-based and cloud SaaS applications, legacy desktop modules, and native iOS/Android apps.",
+ "segments": [
+  "higher_ed",
+  "coaching_vocational"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "none_or_not_documented",
+  "attendance": "partial",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "none_or_not_documented",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "full",
+  "standards_competency_grading": "partial",
+  "exams_management": "partial",
+  "report_cards_transcripts": "full",
+  "lms_homework": "full",
+  "curriculum_planning": "full",
+  "parent_app": "none_or_not_documented",
+  "student_app": "full",
+  "teacher_mobile_app": "partial",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "full",
+  "online_payments": "partial",
+  "accounting_ledger": "full",
+  "payroll_hr": "full",
+  "recruitment": "full",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "full",
+  "library": "none_or_not_documented",
+  "inventory_assets": "partial",
+  "health_medical": "partial",
+  "behavior_pastoral": "full",
+  "safeguarding": "partial",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "partial",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "partial",
+  "genai_assistant": "partial",
+  "predictive_analytics": "full",
+  "government_statutory_reporting": "full",
+  "accreditation_obe": "partial",
+  "higher_ed_registration_degree_audit": "full",
+  "financial_aid_scholarships": "full",
+  "alumni_advancement_fundraising": "full",
+  "marketing_website_cms": "partial",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "none_or_not_documented",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "partial",
+  "multi_campus_group": "partial",
+  "data_export_portability": "partial",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "none_or_not_documented",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Predictive retention risk scores and intervention workflows",
+   "why_it_matters": "Staff can prioritize outreach to students flagged as at risk and track intervention outcomes."
+  },
+  {
+   "feature": "AI Assist for Analytics using plain-language questions",
+   "why_it_matters": "Users can explore governed institutional data without relying exclusively on SQL or ad-hoc reporting."
+  },
+  {
+   "feature": "Configurable natural-language chatbot with question patterns and satisfaction surveys",
+   "why_it_matters": "Institutions can offer always-on student self-service and measure user feedback."
+  },
+  {
+   "feature": "Campus Marketplace for continuing-education commerce",
+   "why_it_matters": "It combines program registration, waitlists, payments, subscriptions, and dual-enrollment workflows."
+  },
+  {
+   "feature": "Higher-education curriculum trees, degree audits, transfer evaluation, and micro-credentials",
+   "why_it_matters": "These capabilities support complex academic requirements and varied credential pathways in a shared system."
+  },
+  {
+   "feature": "Boomi-powered Unity low-code/no-code integration platform",
+   "why_it_matters": "Institutions can connect systems and automate workflows with less custom development."
+  },
+  {
+   "feature": "Residence Life housing workflows with roommate matching and student self-selection",
+   "why_it_matters": "Housing staff can coordinate applications, assignments, occupancy, check-in, and related billing."
+  },
+  {
+   "feature": "Advancement tools combining prospect cultivation, gift accounting, campaigns, and stewardship",
+   "why_it_matters": "Institutions can manage donor relationships and fundraising activity alongside broader campus operations."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Reviewers describe legacy interfaces as dated, clunky, and click-heavy.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Some desktop functions are reportedly unavailable in J1 Web, and rollout across modules has been slow.",
+   "cluster": "product_uncertainty_ownership",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Broad functionality and older interaction patterns can make training and change management demanding.",
+   "cluster": "complexity_usability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Reviewers report inconsistent help-desk support; Gartner reviewers also describe HCM as less built out.",
+   "cluster": "support_implementation",
+   "affected_role": "hr_manager"
+  },
+  {
+   "issue": "Reviews cite slower processing, frequent updates, and downtime concerns.",
+   "cluster": "performance_reliability",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Support pricing is a concern, and costs may be linked to enrollment bands.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Some deployments reportedly lack a native payment gateway; institutions should confirm payment scope.",
+   "cluster": "fragmented_tools",
+   "affected_role": "accountant_bursar"
+  },
+  {
+   "issue": "A reviewer found eLearning cumbersome for instructors and reported weak integration with publisher tools.",
+   "cluster": "fragmented_tools",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "The Apple app rating was 1.8/5 from five ratings; one reviewer reported crashes at login.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "student"
+  },
+  {
+   "issue": "Public materials do not expressly claim FERPA, COPPA, or India DPDP Act compliance.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "it_data_manager"
+  }
+ ],
+ "roles_well_served": [
+  "owner_trustee_group_ceo",
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "dean_hod",
+  "accreditation_iqac",
+  "teacher_faculty",
+  "transport_manager",
+  "hostel_warden",
+  "hr_manager",
+  "it_data_manager",
+  "student",
+  "alumni"
+ ],
+ "roles_poorly_served": [
+  "parent",
+  "transport_manager",
+  "librarian",
+  "counsellor_senco_safeguarding",
+  "government_inspector"
+ ],
+ "ai_features": [
+  "AI Assist for Analytics answers plain-language questions over governed institutional data.",
+  "Retention Risk uses predictive modeling and risk scores to identify students for potential intervention.",
+  "Jenzabar Chatbot uses configurable natural-language question-and-answer patterns and satisfaction surveys.",
+  "Product materials describe AI-powered administrative tools with institutional guardrails and human oversight."
+ ],
+ "pricing_model_summary": "No public list pricing; quote-based and institution-specific. Reported pricing varies by enrollment, modules, and subscription versus perpetual licensing.",
+ "biggest_strategic_gap": "The platform is higher-education focused and does not document several adjacent capabilities, including parent portals, library management, transport, and standards-certified interoperability.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/12-Jenzabar.md"
+}

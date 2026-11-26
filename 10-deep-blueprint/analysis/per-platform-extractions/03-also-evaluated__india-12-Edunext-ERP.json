@@ -1,0 +1,168 @@
+{
+ "platform": "Cloud-based browser ERP with native Android and iOS apps; no desktop client or on-premise edition documented.",
+ "segments": [
+  "k12_public",
+  "k12_private_independent",
+  "international_ib",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "full",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "full",
+  "standards_competency_grading": "none_or_not_documented",
+  "exams_management": "full",
+  "report_cards_transcripts": "partial",
+  "lms_homework": "full",
+  "curriculum_planning": "partial",
+  "parent_app": "full",
+  "student_app": "partial",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "full",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "full",
+  "payroll_hr": "full",
+  "recruitment": "full",
+  "transport_gps": "full",
+  "hostel": "full",
+  "library": "full",
+  "inventory_assets": "full",
+  "health_medical": "none_or_not_documented",
+  "behavior_pastoral": "partial",
+  "safeguarding": "partial",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "none_or_not_documented",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "none_or_not_documented",
+  "predictive_analytics": "none_or_not_documented",
+  "government_statutory_reporting": "partial",
+  "accreditation_obe": "partial",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "partial",
+  "alumni_advancement_fundraising": "partial",
+  "marketing_website_cms": "partial",
+  "open_api": "none_or_not_documented",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "none_or_not_documented",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "full",
+  "data_export_portability": "full",
+  "visitor_management": "full",
+  "canteen_cashless": "partial",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Admission CRM with configurable stages, lead assignment, weighted entrance evaluation, document validation, and payment reconciliation.",
+   "why_it_matters": "It supports a detailed enquiry-to-enrolment process, including applicant evaluation and follow-up."
+  },
+  {
+   "feature": "Alexa voice access to homework, attendance, school news, circulars, and fee dues.",
+   "why_it_matters": "Families can retrieve common school information hands-free through a voice interface."
+  },
+  {
+   "feature": "PowerTEST AI-based online exam proctoring.",
+   "why_it_matters": "It provides an online proctoring option, though public technical details are limited."
+  },
+  {
+   "feature": "Vendor claims more than 1,100 report-card formats and supports CBSE, CISCE, IB, and IGCSE workflows.",
+   "why_it_matters": "Schools can tailor reporting to different boards and local assessment formats."
+  },
+  {
+   "feature": "Bus tracking and attendance through an Android phone carried on each bus.",
+   "why_it_matters": "Schools can provide live location and route attendance without dedicated GPS hardware."
+  },
+  {
+   "feature": "Separate parent, teacher, management, alumni, safety, and transport app experiences.",
+   "why_it_matters": "Role-specific apps expose different functions to families, staff, management, and transport users."
+  },
+  {
+   "feature": "Task workflow with overdue alerts and escalation to higher management.",
+   "why_it_matters": "Escalation can make overdue staff tasks and service requests more visible to managers."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Pricing is quote-only, with no published tiers or implementation amounts.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Reviews report lag and slow data loading.",
+   "cluster": "performance_reliability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Review synthesis cites complex module views and slow implementation.",
+   "cluster": "complexity_usability",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "App reviews cite erratic notifications, stale unread status, and broken leave date-picker behavior.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "Some reviewers report slow issue resolution or support hand-offs.",
+   "cluster": "support_implementation",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "Public materials do not document an open API or OneRoster, LTI, or Ed-Fi support.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Google Play data-safety declarations say data is not encrypted and cannot be deleted, conflicting with vendor security claims.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Public documentation does not establish UDISE+ submission, APAAR integration, or GST invoicing.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "government_inspector"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "teacher_faculty",
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "hr_manager",
+  "parent",
+  "student",
+  "owner_trustee_group_ceo"
+ ],
+ "roles_poorly_served": [
+  "it_data_manager",
+  "government_inspector",
+  "counsellor_senco_safeguarding"
+ ],
+ "ai_features": [
+  "AI-based online exam proctoring through PowerTEST.",
+  "Alexa voice skills for homework, attendance, circulars, news, and fee dues.",
+  "No generative AI assistant or predictive-risk model documented."
+ ],
+ "pricing_model_summary": "No public price list; quote-based subscription with one-time implementation and training charges, billed monthly, quarterly, half-yearly, or yearly by agreement.",
+ "biggest_strategic_gap": "Limited documented interoperability: no open API or major education data standards, alongside unclear statutory integrations and inconsistent public app data-safety declarations.",
+ "_file": "02-platform-profiles/03-also-evaluated/india-12-Edunext-ERP.md"
+}

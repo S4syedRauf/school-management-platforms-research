@@ -1,0 +1,174 @@
+{
+ "platform": "Cloud SaaS, web-based K–12 SIS with native iOS and Android parent and student apps.",
+ "segments": [
+  "k12_public",
+  "k12_private_independent",
+  "preschool",
+  "government",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "partial",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "partial",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "full",
+  "standards_competency_grading": "full",
+  "exams_management": "partial",
+  "report_cards_transcripts": "full",
+  "lms_homework": "full",
+  "curriculum_planning": "partial",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "partial",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "partial",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "none_or_not_documented",
+  "payroll_hr": "partial",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "none_or_not_documented",
+  "health_medical": "partial",
+  "behavior_pastoral": "full",
+  "safeguarding": "partial",
+  "special_education_iep": "full",
+  "mtss_early_warning": "full",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "partial",
+  "genai_assistant": "none_or_not_documented",
+  "predictive_analytics": "full",
+  "government_statutory_reporting": "full",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "partial",
+  "alumni_advancement_fundraising": "partial",
+  "marketing_website_cms": "none_or_not_documented",
+  "open_api": "partial",
+  "standards_oneroster_lti_edfi": "partial",
+  "sso": "none_or_not_documented",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "full",
+  "multi_campus_group": "full",
+  "data_export_portability": "partial",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "full",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Unified SIS, learning, family engagement, payments, food service, messaging, and workflow ecosystem.",
+   "why_it_matters": "Shared district data can reduce reliance on nightly file exchanges between separate systems."
+  },
+  {
+   "feature": "Daily, localized dropout-risk predictions using attendance, behavior, academics, and stability indicators.",
+   "why_it_matters": "Districts can identify students needing intervention using multiple signals in one platform."
+  },
+  {
+   "feature": "State Edition real-time operational data store with cross-district enrollment, certification, historical records, and custom forms.",
+   "why_it_matters": "State agencies and districts can coordinate reporting and student data through a shared operational system."
+  },
+  {
+   "feature": "Vetted Extension Marketplace with integrated education technology partners.",
+   "why_it_matters": "Institutions can add partner tools while retaining a structured integration route."
+  },
+  {
+   "feature": "Workflow events and actions for enrollment, special education, scheduling, grading, and other changes.",
+   "why_it_matters": "Automated follow-up can reduce manual coordination for common district processes."
+  },
+  {
+   "feature": "SpotLight behavior dashboards and BTAM multidisciplinary threat-assessment workflows.",
+   "why_it_matters": "Schools can track positive behavior and coordinate threat-assessment processes within the SIS ecosystem."
+  },
+  {
+   "feature": "Data Validations, Change Tracker, and Access Tracker.",
+   "why_it_matters": "Districts can monitor data quality, record changes, and audit access to student information."
+  },
+  {
+   "feature": "Family app combines academic information with enabled food balances, fees, activities, stores, and donations.",
+   "why_it_matters": "Families can access several school services through a shared account and mobile experience."
+  },
+  {
+   "feature": "Report Translation supports translated teacher comments and multilingual report cards.",
+   "why_it_matters": "Schools can provide report information to families in additional languages."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Reviewers report difficult navigation, confusing permissions, interface relearning, and cumbersome grade or report workflows.",
+   "cluster": "complexity_usability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Reviewers cite complex navigation, too many steps, time-consuming grades, and difficult reports.",
+   "cluster": "complexity_usability",
+   "affected_role": "academic_coordinator"
+  },
+  {
+   "issue": "Reviewers report limited customization and difficult reporting.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Google Play ratings were 3.3 for Campus Parent and 3.6 for Campus Student when reviewed.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "No public price list; custom module quotes and possible implementation fees make total cost difficult to compare.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Direct API access is partnership-gated, and OneRoster implementations vary.",
+   "cluster": "complexity_usability",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Transport, library, boarding, general assets, full payroll/accounting, and alumni CRM are not documented as native modules.",
+   "cluster": "segment_limited",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "Public sources did not establish formal GDPR or India DPDP commitments or non-U.S. hosting.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "it_data_manager"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "teacher_faculty",
+  "counsellor_senco_safeguarding",
+  "parent",
+  "student",
+  "government_inspector"
+ ],
+ "roles_poorly_served": [
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "hr_manager",
+  "alumni"
+ ],
+ "ai_features": [
+  "Predictive analytics forecasts graduation persistence and dropout risk using attendance, behavior, academics, and stability data.",
+  "No production generative-AI assistant was identified."
+ ],
+ "pricing_model_summary": "No public price list; subscription pricing is typically quoted per student, with module-dependent pricing and possible implementation fees.",
+ "biggest_strategic_gap": "The U.S. K–12 SIS is broad and state-reporting capable, but lacks documented native coverage for transport, library, boarding, full finance, payroll, and generative AI.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/13-Infinite-Campus.md"
+}

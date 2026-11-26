@@ -1,0 +1,176 @@
+{
+ "platform": "Classter",
+ "segments": [
+  "k12_public",
+  "k12_private_independent",
+  "international_ib",
+  "higher_ed",
+  "coaching_vocational",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "full",
+  "timetable_auto_scheduling": "full",
+  "cover_substitution": "full",
+  "gradebook": "full",
+  "standards_competency_grading": "partial",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "full",
+  "curriculum_planning": "full",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "none_or_not_documented",
+  "payroll_hr": "full",
+  "recruitment": "full",
+  "transport_gps": "partial",
+  "hostel": "none_or_not_documented",
+  "library": "full",
+  "inventory_assets": "none_or_not_documented",
+  "health_medical": "partial",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "partial",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "none_or_not_documented",
+  "predictive_analytics": "none_or_not_documented",
+  "government_statutory_reporting": "partial",
+  "accreditation_obe": "partial",
+  "higher_ed_registration_degree_audit": "partial",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "partial",
+  "marketing_website_cms": "none_or_not_documented",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "partial",
+  "sso": "partial",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "full",
+  "data_export_portability": "full",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "none_or_not_documented",
+  "placements_careers": "full",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Longitudinal student record spanning inquiry, admissions, enrollment, billing, graduation, and alumni engagement.",
+   "why_it_matters": "Keeps lifecycle information connected and can reduce duplicate entry across institutional teams."
+  },
+  {
+   "feature": "Configurable academic structures, including curricula, credits, grading, progression, and institution-specific terminology.",
+   "why_it_matters": "Supports varied school and higher-education models without imposing one fixed academic structure."
+  },
+  {
+   "feature": "AI timetable scheduling, exam scheduling, teaching companion, and early-warning tools are documented.",
+   "why_it_matters": "Offers scheduling and student-support functions beyond routine SIS administration; published performance evidence is limited."
+  },
+  {
+   "feature": "Cloud SaaS and on-premise deployment options.",
+   "why_it_matters": "Lets institutions choose between vendor-hosted infrastructure and greater control of their own environment."
+  },
+  {
+   "feature": "Dedicated agent portal for recruitment leads, applications, communications, and commission visibility.",
+   "why_it_matters": "Supports institutions recruiting through external representatives, especially in international markets."
+  },
+  {
+   "feature": "Internship and thesis workflows include employer matching, applications, logbooks, contracts, and grading.",
+   "why_it_matters": "Connects academic administration with work placements and thesis supervision."
+  },
+  {
+   "feature": "Read/write Consumer API and integrations with major LMS, productivity, payment, and communication tools.",
+   "why_it_matters": "Enables data exchange and can help institutions connect existing systems to the platform."
+  },
+  {
+   "feature": "Embedded education payment capability through Classter Payments, alongside other payment integrations.",
+   "why_it_matters": "Links payment collection to student billing and education-specific payment arrangements."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Implementation and configuration can take time; reviewers mention setup difficulty, bugs, and integration issues.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Complex workflows and numerous features may require training and confuse less technical users.",
+   "cluster": "complexity_usability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Some reviewers report rigid workflows for nonstandard institutions and limited customization in particular workflows.",
+   "cluster": "complexity_usability",
+   "affected_role": "academic_coordinator"
+  },
+  {
+   "issue": "Finance and logistics reports may need adjustment, according to reviewers.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "accountant_bursar"
+  },
+  {
+   "issue": "Mobile ratings are weaker than web ratings; complaints include limited functionality, repeated sign-in, and missing homework.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "student"
+  },
+  {
+   "issue": "Moodle integration has caused interface problems for at least one reviewer.",
+   "cluster": "fragmented_tools",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Module-based customized pricing makes total cost difficult to estimate; implementation fees are not itemized.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Public sources do not establish SOC 2, FERPA, COPPA, or DPDP attestations.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  }
+ ],
+ "roles_well_served": [
+  "owner_trustee_group_ceo",
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "teacher_faculty",
+  "parent",
+  "student",
+  "hr_manager",
+  "transport_manager",
+  "librarian",
+  "alumni",
+  "dean_hod"
+ ],
+ "roles_poorly_served": [
+  "it_data_manager",
+  "government_inspector",
+  "counsellor_senco_safeguarding",
+  "hostel_warden",
+  "accreditation_iqac"
+ ],
+ "ai_features": [
+  "AI timetable scheduling engine; optimization method and independent deployment evidence are not disclosed.",
+  "AI exam scheduling, teaching companion, and early-warning tools are listed in the help center; model details and benchmarks are not published."
+ ],
+ "pricing_model_summary": "Module- and active-student-based pricing; a published 1,000-student example totals €25,500 annually for three modules. Annual or bi-annual billing; implementation fees are not itemized.",
+ "biggest_strategic_gap": "Despite broad SIS and ERP coverage, dedicated safeguarding, special-education case management, general-ledger accounting, and independently evidenced compliance certifications are not documented.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/16-Classter.md"
+}

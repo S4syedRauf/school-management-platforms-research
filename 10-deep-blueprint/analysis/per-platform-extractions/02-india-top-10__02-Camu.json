@@ -1,0 +1,169 @@
+{
+ "platform": "Camu by Octoze Technologies: multi-tenant cloud SaaS, web-based, with native iOS and Android apps.",
+ "segments": [
+  "higher_ed",
+  "coaching_vocational",
+  "multi_campus_group",
+  "government"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "partial",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "full",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "full",
+  "standards_competency_grading": "full",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "full",
+  "curriculum_planning": "partial",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "partial",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "partial",
+  "payroll_hr": "partial",
+  "recruitment": "partial",
+  "transport_gps": "partial",
+  "hostel": "full",
+  "library": "partial",
+  "inventory_assets": "partial",
+  "health_medical": "partial",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "none_or_not_documented",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "partial",
+  "genai_assistant": "full",
+  "predictive_analytics": "none_or_not_documented",
+  "government_statutory_reporting": "partial",
+  "accreditation_obe": "full",
+  "higher_ed_registration_degree_audit": "full",
+  "financial_aid_scholarships": "full",
+  "alumni_advancement_fundraising": "partial",
+  "marketing_website_cms": "partial",
+  "open_api": "partial",
+  "standards_oneroster_lti_edfi": "partial",
+  "sso": "full",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "none_or_not_documented",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "full",
+  "data_export_portability": "partial",
+  "visitor_management": "partial",
+  "canteen_cashless": "none_or_not_documented",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Higher-education OBE and CBCS workflows, including outcome mapping, attainment, and flexible course choice.",
+   "why_it_matters": "Institutions can manage outcomes-based assessment and choice-based credit structures within core academic operations."
+  },
+  {
+   "feature": "Accreditation workflows for NAAC and NBA evidence, criterion mapping, and SSR/AQAR reporting.",
+   "why_it_matters": "Automates recurring accreditation evidence work rather than relying solely on manual document preparation."
+  },
+  {
+   "feature": "AI Content Studio generates course structures, quizzes, and assignments from uploaded source materials, with faculty review.",
+   "why_it_matters": "Faculty can turn existing institutional materials into editable, publishable LMS content."
+  },
+  {
+   "feature": "Attendance options include QR, biometrics, facial recognition, mobile marking, and geofencing.",
+   "why_it_matters": "Institutions can select attendance methods suited to different locations and operational policies."
+  },
+  {
+   "feature": "India-focused support for UGC initiatives, Academic Bank of Credits, DigiLocker/NAD templates, and NEP workflows.",
+   "why_it_matters": "Supports documented Indian higher-education credit and student-record processes."
+  },
+  {
+   "feature": "Examination operations include scheduling, seating, proctoring, answer-sheet uploads, moderation, normalization, and revaluation.",
+   "why_it_matters": "Covers multiple stages of institution-level examination administration in one system."
+  },
+  {
+   "feature": "Hostel workflows include room allocation, occupancy, biometric/RFID attendance, visitor logs, and gate passes.",
+   "why_it_matters": "Connects residential student operations with attendance and accommodation records."
+  },
+  {
+   "feature": "LMS supports SCORM, learning paths, virtual classes, asynchronous learning, and outcome-linked assessments.",
+   "why_it_matters": "Institutions can deliver blended or distance learning alongside assessment and academic records."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Official pricing and implementation fees are undisclosed; third-party ₹25/year listings lack a clear pricing unit or inclusions.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Capterra reviewers describe reports as limited or generic and say ease of use could improve.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "Reviewers report needing vendor guidance, slow updates, and cumbersome staff-leave approval dependencies.",
+   "cluster": "support_implementation",
+   "affected_role": "hr_manager"
+  },
+  {
+   "issue": "Google Play reviews report login or OTP failures, repeated logouts, crashes, stale details, and slow loading.",
+   "cluster": "performance_reliability",
+   "affected_role": "student"
+  },
+  {
+   "issue": "GetApp reports no API, conflicting with the vendor’s current API claims; tenant-specific access should be validated.",
+   "cluster": "product_uncertainty_ownership",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Public materials do not document DPDP Act readiness or SOC 2, FERPA, or COPPA certification.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Public evidence does not verify UDISE+, APAAR, state-board templates, GST invoicing, or AISHE submission workflows.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "government_inspector"
+  },
+  {
+   "issue": "HR/payroll and library capabilities are partner-delivered, so product boundaries and implementation scope require confirmation.",
+   "cluster": "fragmented_tools",
+   "affected_role": "hr_manager"
+  }
+ ],
+ "roles_well_served": [
+  "admissions_counsellor",
+  "academic_coordinator",
+  "exam_controller_registrar",
+  "accountant_bursar",
+  "teacher_faculty",
+  "accreditation_iqac",
+  "parent",
+  "student",
+  "hostel_warden",
+  "principal_head"
+ ],
+ "roles_poorly_served": [
+  "it_data_manager",
+  "hr_manager",
+  "government_inspector",
+  "owner_trustee_group_ceo"
+ ],
+ "ai_features": [
+  "AI Content Studio generates chapters, quizzes, assignments, and outcome-aligned courses from uploaded materials; faculty can edit and approve content.",
+  "Documented LMS capabilities include adaptive assessments, contextual conversational learning, flashcards, short video snippets, and audio-visual/avatar experiences.",
+  "Gemini and ChatGPT connections are described through open APIs; the vendor says personal data is not used for model training."
+ ],
+ "pricing_model_summary": "No official public pricing or implementation fees; sales contact required. Third-party ₹25/year listings lack a defined unit, scope, or dependable quote.",
+ "biggest_strategic_gap": "Strong higher-education breadth is offset by unclear pricing and implementation boundaries, uncertain API entitlement, and limited public evidence for several compliance and interoperability standards.",
+ "_file": "02-platform-profiles/02-india-top-10/02-Camu.md"
+}

@@ -1,0 +1,174 @@
+{
+ "platform": "Fedena — cloud-hosted, web-based education ERP/SIS with native iOS and Android apps and documented self-hosted deployment.",
+ "segments": [
+  "k12_public",
+  "k12_private_independent",
+  "international_ib",
+  "higher_ed",
+  "coaching_vocational",
+  "multi_campus_group",
+  "government"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "full",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "full",
+  "standards_competency_grading": "partial",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "partial",
+  "curriculum_planning": "none_or_not_documented",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "full",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "partial",
+  "payroll_hr": "full",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "full",
+  "hostel": "full",
+  "library": "full",
+  "inventory_assets": "full",
+  "health_medical": "partial",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "none_or_not_documented",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "none_or_not_documented",
+  "predictive_analytics": "none_or_not_documented",
+  "government_statutory_reporting": "partial",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "partial",
+  "marketing_website_cms": "partial",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "full",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "partial",
+  "multi_campus_group": "full",
+  "data_export_portability": "full",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "none_or_not_documented",
+  "placements_careers": "partial",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Apache-licensed open-source origins, plugin architecture, and documented self-hosting.",
+   "why_it_matters": "Technically capable institutions can customize deployment and extend functionality beyond the hosted product."
+  },
+  {
+   "feature": "Indian assessment workflows including CCE, CBSE-oriented SA/FA, and ICSE grading.",
+   "why_it_matters": "These workflows address locally relevant assessment and report-card requirements."
+  },
+  {
+   "feature": "One native mobile app provides administrator, teacher, parent, and student experiences.",
+   "why_it_matters": "Multiple school constituencies can access role-specific tools through a shared mobile product."
+  },
+  {
+   "feature": "Multi-school dashboards for consolidated group oversight.",
+   "why_it_matters": "Management can monitor multiple institutions through a consolidated view."
+  },
+  {
+   "feature": "Custom fields, form builder, and configurable report filters and columns.",
+   "why_it_matters": "Institutions can adapt data collection and reporting to local needs without assuming bespoke core development."
+  },
+  {
+   "feature": "Public API playground with tokenized actions and OAuth/app-frame support.",
+   "why_it_matters": "IT teams can connect external applications and build integrations using documented interfaces."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Reviewers report maze-like navigation and difficult gradebook and inventory workflows.",
+   "cluster": "complexity_usability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Some users report slow or poorly presented support and training.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Users report large-data loading can hang.",
+   "cluster": "performance_reliability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Reviews cite pricing pressure for smaller organizations; confirm current quote and module inclusions.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Mobile app ratings are low in the cited listings, with Android demo login complaints.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "Customized CSV upload is reported as unsupported in inventory.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Self-hosted community edition may lag commercial releases and requires technical maintenance.",
+   "cluster": "product_uncertainty_ownership",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Public materials do not verify UDISE+, APAAR, NEP 2020 HPC, or DPDP readiness.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "government_inspector"
+  },
+  {
+   "issue": "No public SOC 2 or ISO 27001 certification, hosting-region statement, or DPDP readiness evidence was verified.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Fedena identifies itself as an ERP, not a full LMS; Moodle integration is documented.",
+   "cluster": "segment_limited",
+   "affected_role": "academic_coordinator"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "teacher_faculty",
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "hr_manager",
+  "it_data_manager",
+  "parent",
+  "student"
+ ],
+ "roles_poorly_served": [
+  "counsellor_senco_safeguarding",
+  "accreditation_iqac",
+  "government_inspector",
+  "alumni"
+ ],
+ "ai_features": [],
+ "pricing_model_summary": "Annual institutional tiers: Standard $800, Premium $1,120, Ultimate $1,360 during the cited 20% sale; Enterprise is quote-based. Unlimited users; add-ons may vary.",
+ "biggest_strategic_gap": "Public documentation does not establish modern statutory reporting, dedicated safeguarding or special-education workflows, full LMS functionality, or verified AI capabilities.",
+ "_file": "02-platform-profiles/02-india-top-10/03-Fedena.md"
+}

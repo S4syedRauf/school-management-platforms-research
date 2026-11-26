@@ -1,0 +1,158 @@
+{
+ "platform": "Cloud-native browser-based K–12 SIS with responsive Alma Now mobile portal; state deployments may be Alma-hosted, agency-hosted, or hybrid.",
+ "segments": [
+  "k12_public",
+  "k12_private_independent",
+  "international_ib",
+  "multi_campus_group",
+  "government"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "full",
+  "standards_competency_grading": "full",
+  "exams_management": "none_or_not_documented",
+  "report_cards_transcripts": "full",
+  "lms_homework": "partial",
+  "curriculum_planning": "partial",
+  "parent_app": "partial",
+  "student_app": "partial",
+  "teacher_mobile_app": "none_or_not_documented",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "partial",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "none_or_not_documented",
+  "payroll_hr": "none_or_not_documented",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "none_or_not_documented",
+  "health_medical": "partial",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "partial",
+  "mtss_early_warning": "partial",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "partial",
+  "genai_assistant": "none_or_not_documented",
+  "predictive_analytics": "partial",
+  "government_statutory_reporting": "full",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "none_or_not_documented",
+  "marketing_website_cms": "none_or_not_documented",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "partial",
+  "sso": "full",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "full",
+  "multi_campus_group": "full",
+  "data_export_portability": "partial",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "none_or_not_documented",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "BeaconAI operational analytics",
+   "why_it_matters": "Surfaces attendance, grades, behavior, family engagement, assessment, and data-quality patterns for earlier school intervention."
+  },
+  {
+   "feature": "Statewide data exchange and reporting",
+   "why_it_matters": "Supports state collection, validation, certification, and school-to-agency data exchange, including New Hampshire's iNHDEX."
+  },
+  {
+   "feature": "125-plus integration App Center",
+   "why_it_matters": "Lets schools discover connectors, configure data sharing, and monitor integrations across learning, communications, and administrative systems."
+  },
+  {
+   "feature": "Spreadsheet-style Data Editor",
+   "why_it_matters": "Enables validated bulk edits and imports, reducing repetitive record maintenance for school administrators."
+  },
+  {
+   "feature": "Navigator onboarding and migration tooling",
+   "why_it_matters": "Tracks implementation tasks such as GPA setup, schedules, and LMS integrations during school onboarding."
+  },
+  {
+   "feature": "Configurable competency and standards grading",
+   "why_it_matters": "Supports proficiency calculations, rubrics, mastery tracking, and standards-based report cards within the SIS."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Pricing is quote-only, with no published subscription, module, implementation, or payment-fee rates.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Complex reporting may require CSV workarounds and can be difficult to customize.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Reviewers report occasional glitches, technical difficulties, and workday-impacting downtime.",
+   "cluster": "performance_reliability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Some users report time-consuming standards grading and gradebook synchronization, saving, or viewing issues.",
+   "cluster": "complexity_usability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Some reviews describe slow support follow-up or trial-and-error when resolving difficult issues.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Transport, library, hostel, inventory, payroll, and full special-education workflows are not documented as native modules.",
+   "cluster": "fragmented_tools",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "A current independent security audit, hosting regions, and SOC 2 or ISO certification were not verified.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "teacher_faculty",
+  "parent",
+  "student",
+  "government_inspector",
+  "it_data_manager"
+ ],
+ "roles_poorly_served": [
+  "hr_manager",
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "counsellor_senco_safeguarding",
+  "alumni"
+ ],
+ "ai_features": [
+  "BeaconAI provides analytics on chronic absence, D/F trends, family disengagement, behavior patterns, assessment gaps, and data quality.",
+  "Predictive analysis is described, but no conversational assistant or generative AI feature was verified."
+ ],
+ "pricing_model_summary": "Custom quote; no public prices or free trial. Subscription terms and fees are set in a separate written agreement; some capabilities are upgrades.",
+ "biggest_strategic_gap": "Limited native breadth beyond core K–12 SIS: several operational specialties depend on integrations, while complex reporting and pricing transparency are concerns.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/04-Alma-SIS.md"
+}

@@ -1,0 +1,183 @@
+{
+ "platform": "Ellucian higher-education ERP/SIS portfolio: Banner, Colleague, Ellucian Student and related products; cloud SaaS and web-based, with legacy on-premise or hybrid estates and institution-branded iOS/Android apps.",
+ "segments": [
+  "higher_ed",
+  "coaching_vocational",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "partial",
+  "student_records": "full",
+  "guardian_household": "none_or_not_documented",
+  "attendance": "partial",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "partial",
+  "standards_competency_grading": "none_or_not_documented",
+  "exams_management": "none_or_not_documented",
+  "report_cards_transcripts": "partial",
+  "lms_homework": "none_or_not_documented",
+  "curriculum_planning": "full",
+  "parent_app": "none_or_not_documented",
+  "student_app": "full",
+  "teacher_mobile_app": "partial",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "full",
+  "payroll_hr": "full",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "full",
+  "health_medical": "none_or_not_documented",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "partial",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "partial",
+  "genai_assistant": "full",
+  "predictive_analytics": "full",
+  "government_statutory_reporting": "partial",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "full",
+  "financial_aid_scholarships": "full",
+  "alumni_advancement_fundraising": "full",
+  "marketing_website_cms": "partial",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "partial",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "partial",
+  "multi_campus_group": "partial",
+  "data_export_portability": "partial",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "partial",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Higher Ed Knowledge Graph grounds AI in institutional rules, policies, processes and regulations.",
+   "why_it_matters": "It helps tailor AI outputs to higher-education context rather than relying only on generic prompts."
+  },
+  {
+   "feature": "Agentic AI capabilities are included in the AI subscription without per-seat, token, credit or usage-meter charges.",
+   "why_it_matters": "Institutions can plan AI costs without usage-based fees for included features."
+  },
+  {
+   "feature": "Smart Planning and Registration adapts academic plans to program changes, life events and student pace.",
+   "why_it_matters": "Students and advisors can connect course choices with sequencing, registration and anticipated completion."
+  },
+  {
+   "feature": "Credential Discovery identifies earned or nearly completed credentials outside a student's declared program.",
+   "why_it_matters": "It can help institutions recognize progress and support stop-outs nearing completion."
+  },
+  {
+   "feature": "AI Forms Assistant creates forms from natural-language instructions or recreates uploaded forms digitally.",
+   "why_it_matters": "Non-technical staff can build or digitize forms without relying solely on technical teams."
+  },
+  {
+   "feature": "Central Workspace presents role-based tasks, alerts and dashboards across student, finance and HCM systems.",
+   "why_it_matters": "Users can reach cross-system work through a shared institutional hub."
+  },
+  {
+   "feature": "Transcript Exchange supports secure transcript ordering, authentication and fulfillment.",
+   "why_it_matters": "It manages transcript workflows beyond simple record storage or file export."
+  },
+  {
+   "feature": "Banner and Colleague SaaS supports migration from established higher-education ERP/SIS estates.",
+   "why_it_matters": "Institutions can move infrastructure and updates toward managed cloud services while retaining sector-specific systems."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Reviews describe dated or inconsistent interfaces, multi-step workflows and a steep learning curve.",
+   "cluster": "complexity_usability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Reviewers cite difficult report customization and rigid reporting workflows.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Reviews report painful implementations, consultant confusion and train-the-trainer demands that strain small institutions.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Reviewers describe inadequate public help materials and slow or ineffective support.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "SaaS migration reviews cite release defects, delays and reduced institutional control over upgrade schedules.",
+   "cluster": "performance_reliability",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Core product prices and implementation fees are not public; reviews cite significant costs and unexpected deployment expenses.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Mobile app quality varies by institution; the reviewed UL Lafayette listing had login, crashing and reliability complaints.",
+   "cluster": "performance_reliability",
+   "affected_role": "student"
+  },
+  {
+   "issue": "Native school-management coverage is limited: transport, library, hostel, health, special education and discipline modules were not documented.",
+   "cluster": "segment_limited",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "No native LMS, homework or online examination engine is documented; institutions typically need specialist integrations.",
+   "cluster": "fragmented_tools",
+   "affected_role": "teacher_faculty"
+  }
+ ],
+ "roles_well_served": [
+  "owner_trustee_group_ceo",
+  "principal_head",
+  "academic_coordinator",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "dean_hod",
+  "accreditation_iqac",
+  "teacher_faculty",
+  "it_data_manager",
+  "student",
+  "alumni",
+  "hr_manager"
+ ],
+ "roles_poorly_served": [
+  "front_office_admin",
+  "parent",
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "counsellor_senco_safeguarding",
+  "government_inspector"
+ ],
+ "ai_features": [
+  "Higher Ed Knowledge Graph grounding AI in institutional processes, policies and regulations.",
+  "Agentic task execution and AI-powered degree planning and alerts.",
+  "Predictive retention indicators and student-success analytics.",
+  "Natural-language analytics and data discovery.",
+  "AI virtual student assistant and scholarship matching.",
+  "AI-assisted form creation and fraud checks.",
+  "Workforce and finance recommendations."
+ ],
+ "pricing_model_summary": "Core product prices, licensing units and implementation fees are quote-based and not publicly listed. Included AI has no per-seat, token, credit or usage-meter charge; subscription price is undisclosed.",
+ "biggest_strategic_gap": "Ellucian is a higher-education ERP/SIS, not a complete school-management suite: LMS, examinations and several campus or student-care modules require other products or integrations.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/02-Ellucian.md"
+}

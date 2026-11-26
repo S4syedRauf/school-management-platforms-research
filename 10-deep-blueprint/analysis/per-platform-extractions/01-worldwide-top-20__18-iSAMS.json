@@ -1,0 +1,174 @@
+{
+ "platform": "iSAMS (IRIS Software Group)",
+ "segments": [
+  "k12_private_independent",
+  "international_ib",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "full",
+  "gradebook": "full",
+  "standards_competency_grading": "none_or_not_documented",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "partial",
+  "curriculum_planning": "full",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "partial",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "full",
+  "payroll_hr": "partial",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "partial",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "full",
+  "health_medical": "full",
+  "behavior_pastoral": "full",
+  "safeguarding": "partial",
+  "special_education_iep": "partial",
+  "mtss_early_warning": "partial",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "partial",
+  "genai_assistant": "partial",
+  "predictive_analytics": "none_or_not_documented",
+  "government_statutory_reporting": "partial",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "partial",
+  "marketing_website_cms": "partial",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "full",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "full",
+  "multi_campus_group": "full",
+  "data_export_portability": "partial",
+  "visitor_management": "partial",
+  "canteen_cashless": "partial",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Central analytics uses Power BI and APIs, with natural-language prompts generating customizable report visualisations.",
+   "why_it_matters": "School leaders can explore institutional data and create reports without relying solely on predefined dashboards."
+  },
+  {
+   "feature": "REST and Batch APIs connect a core MIS database to a marketplace of more than 200 partners.",
+   "why_it_matters": "Schools can integrate external learning, payment, facilities and other systems while sharing core data."
+  },
+  {
+   "feature": "International-school support includes multiple curricula, calendars, time zones, languages and currencies.",
+   "why_it_matters": "International and multi-campus organisations can accommodate varied local operating requirements."
+  },
+  {
+   "feature": "Wellbeing records include configurable indicators, care contributors and restricted viewing permissions.",
+   "why_it_matters": "Schools can coordinate pastoral information while limiting access to sensitive student records."
+  },
+  {
+   "feature": "Data Protection includes consent registers, parental consent and data-subject access request workflows.",
+   "why_it_matters": "Staff can manage privacy-related records and requests within the school information system."
+  },
+  {
+   "feature": "Branded parent and student progressive web portals provide push notifications and mobile access.",
+   "why_it_matters": "Families and students can access school information across devices without requiring only native apps."
+  },
+  {
+   "feature": "iFinance supports multi-currency accounting, bank feeds, reconciliation and multi-entity consolidation.",
+   "why_it_matters": "School groups can manage financial activity across currencies and entities in one finance product."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Review averages are modest, including G2 at 2.5/5 and GetApp and Software Advice at 3.2/5.",
+   "cluster": "complexity_usability",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "Reviewers describe navigation and workflows as clunky or long-winded, including registers, timetabling and reporting.",
+   "cluster": "complexity_usability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Reviewers report an ageing interface and limited bulk import/export.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Custom reports may incur extra charges, and reviewers report rigid reporting and download options.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "academic_coordinator"
+  },
+  {
+   "issue": "Reviewers report unreliable Email Wizard behaviour.",
+   "cluster": "performance_reliability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "US reviewers report rigid regional formats and terminology.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Reviewers cite poor support and difficult customisation.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "iParent and iStudent reviews include login, loading, crashing and glitch complaints.",
+   "cluster": "performance_reliability",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "No built-in LMS means schools need external learning-platform integrations.",
+   "cluster": "fragmented_tools",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "No public price book; pricing is quote-led and third-party annual estimates conflict.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "teacher_faculty",
+  "counsellor_senco_safeguarding",
+  "hr_manager",
+  "it_data_manager",
+  "parent",
+  "student"
+ ],
+ "roles_poorly_served": [
+  "teacher_faculty",
+  "front_office_admin",
+  "it_data_manager",
+  "parent",
+  "student"
+ ],
+ "ai_features": [
+  "Central natural-language Q&A generates report visualisations from user prompts; results can be customised."
+ ],
+ "pricing_model_summary": "No official public rates; quote-led pricing depends on school size, modules, integrations and implementation. Third-party annual estimates conflict.",
+ "biggest_strategic_gap": "It is a broad school MIS rather than a built-in LMS; schools need external learning platforms, and standards certifications such as OneRoster, LTI and Ed-Fi are undocumented.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/18-iSAMS.md"
+}

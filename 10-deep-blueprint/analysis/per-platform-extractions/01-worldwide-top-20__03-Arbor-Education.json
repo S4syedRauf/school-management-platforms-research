@@ -1,0 +1,180 @@
+{
+ "platform": "Cloud SaaS, browser-based MIS with native iOS and Android parent/guardian and student apps; no on-premise MIS deployment documented.",
+ "segments": [
+  "k12_public",
+  "k12_private_independent",
+  "coaching_vocational",
+  "multi_campus_group",
+  "government"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "full",
+  "gradebook": "full",
+  "standards_competency_grading": "partial",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "partial",
+  "curriculum_planning": "full",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "none_or_not_documented",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "partial",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "partial",
+  "payroll_hr": "partial",
+  "recruitment": "partial",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "partial",
+  "health_medical": "full",
+  "behavior_pastoral": "full",
+  "safeguarding": "partial",
+  "special_education_iep": "full",
+  "mtss_early_warning": "partial",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "full",
+  "predictive_analytics": "none_or_not_documented",
+  "government_statutory_reporting": "full",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "none_or_not_documented",
+  "marketing_website_cms": "none_or_not_documented",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "partial",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "full",
+  "marketplace_plugins": "partial",
+  "multi_campus_group": "full",
+  "data_export_portability": "full",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "partial",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Ask Arbor and Smart Reports, including an Ofsted Inspection Companion",
+   "why_it_matters": "Natural-language answers and editable inspection materials can reduce report preparation and data-navigation effort."
+  },
+  {
+   "feature": "Auto Absence voicemail transcription and translation",
+   "why_it_matters": "It converts absence voicemails into staff-reviewable records, including support for families who use other languages."
+  },
+  {
+   "feature": "MAT policy pushdown",
+   "why_it_matters": "Trust teams can distribute assessment, pay-scale, permission and user-field policies while allowing local school autonomy."
+  },
+  {
+   "feature": "Live national benchmarking",
+   "why_it_matters": "Schools can compare operational and attainment data against DfE, Ofsted and Arbor national benchmarks."
+  },
+  {
+   "feature": "Arbor Workflows visual process builder",
+   "why_it_matters": "Forms, approvals, reminders, conditional logic and audit trails can automate administrative processes without custom software."
+  },
+  {
+   "feature": "Integrated school payments",
+   "why_it_matters": "Schools can manage charges for trips, meals, clubs and shops alongside parent communications and student records."
+  },
+  {
+   "feature": "England census preparation workflows",
+   "why_it_matters": "Census dry runs, error resolution and submission files support school and workforce statutory reporting."
+  },
+  {
+   "feature": "Partner API approval and revocation controls",
+   "why_it_matters": "Schools can review and manage partner access to data rather than granting integrations unexamined access."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Parent app reviews report confusing navigation, login failures, slow loading and random logouts.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "Student app reviews report poor usability, login or loading problems, and difficulties submitting homework.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "student"
+  },
+  {
+   "issue": "Trustpilot reviews describe confusing design, slow performance, errors and support friction; reviews are unverified.",
+   "cluster": "performance_reliability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Cloud access depends on reliable internet, Wi-Fi, browser and device configuration.",
+   "cluster": "connectivity_offline_language",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Payroll, full accounting, transport, library, boarding, alumni and fundraising require separate products or integrations.",
+   "cluster": "fragmented_tools",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Full master scheduling relies on separate TimeTabler or third-party tools rather than the core MIS.",
+   "cluster": "fragmented_tools",
+   "affected_role": "academic_coordinator"
+  },
+  {
+   "issue": "Reviewed materials do not establish OneRoster, LTI, Ed-Fi or SIF certification.",
+   "cluster": "other",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Current pricing is quote-based, and published G-Cloud prices are historical rather than current quotes.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Partner integrations require school approval, and schools cannot independently customise every permission set.",
+   "cluster": "complexity_usability",
+   "affected_role": "it_data_manager"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "teacher_faculty",
+  "counsellor_senco_safeguarding",
+  "it_data_manager",
+  "parent",
+  "student",
+  "government_inspector"
+ ],
+ "roles_poorly_served": [
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "hr_manager",
+  "alumni"
+ ],
+ "ai_features": [
+  "Ask Arbor natural-language answers",
+  "Smart Reports and Ofsted Inspection Companion",
+  "Instant student summaries",
+  "Email, letter and SMS drafting and translation",
+  "Formula suggestions",
+  "Auto Absence voicemail transcription, translation and logging"
+ ],
+ "pricing_model_summary": "Quote-based; historical 2024/25 G-Cloud pricing used annual per-student charges plus school base fees, with separate MAT, setup, training and optional service charges.",
+ "biggest_strategic_gap": "The UK-focused MIS depends on integrations or separate products for several operational areas, while mobile app complaints and internet dependence may weaken everyday user experience.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/03-Arbor-Education.md"
+}

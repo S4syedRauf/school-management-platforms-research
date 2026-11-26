@@ -1,0 +1,151 @@
+{
+ "platform": "Cloud SaaS and browser-based higher-education SIS/ERP; hybrid installed base includes documented legacy on-premise deployment.",
+ "segments": [
+  "higher_ed",
+  "coaching_vocational"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "none_or_not_documented",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "partial",
+  "standards_competency_grading": "partial",
+  "exams_management": "none_or_not_documented",
+  "report_cards_transcripts": "partial",
+  "lms_homework": "none_or_not_documented",
+  "curriculum_planning": "partial",
+  "parent_app": "none_or_not_documented",
+  "student_app": "partial",
+  "teacher_mobile_app": "none_or_not_documented",
+  "messaging_sms_email_push": "partial",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "partial",
+  "fees_billing": "full",
+  "online_payments": "partial",
+  "accounting_ledger": "partial",
+  "payroll_hr": "partial",
+  "recruitment": "partial",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "partial",
+  "library": "none_or_not_documented",
+  "inventory_assets": "none_or_not_documented",
+  "health_medical": "none_or_not_documented",
+  "behavior_pastoral": "none_or_not_documented",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "none_or_not_documented",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "partial",
+  "genai_assistant": "partial",
+  "predictive_analytics": "partial",
+  "government_statutory_reporting": "full",
+  "accreditation_obe": "partial",
+  "higher_ed_registration_degree_audit": "full",
+  "financial_aid_scholarships": "full",
+  "alumni_advancement_fundraising": "none_or_not_documented",
+  "marketing_website_cms": "none_or_not_documented",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "partial",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "full",
+  "data_export_portability": "partial",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "none_or_not_documented",
+  "placements_careers": "full",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Specialized U.S. financial-aid workflows, including clock-hour, non-term, crossover, COD, R2T4, and automated packaging.",
+   "why_it_matters": "Institutions with complex aid programs can manage specialized regulatory and disbursement processes within the student system."
+  },
+  {
+   "feature": "Configurable Views with grids, charts, related-object queries, filters, pinning, and OData export.",
+   "why_it_matters": "Staff can create reusable analyses across modules rather than depending exclusively on fixed reports."
+  },
+  {
+   "feature": "Scheduling AI Assistant analyzes historical registration and section-demand data.",
+   "why_it_matters": "Scheduling teams can identify likely section demand and faculty-hiring needs."
+  },
+  {
+   "feature": "Opt-in AI Product Guide answers questions from curated product documentation without accessing student data.",
+   "why_it_matters": "Users can get product guidance while keeping student records outside the assistant's data access."
+  },
+  {
+   "feature": "Cross-module hold codes can control registration, transcripts, aid disbursement, graduation, or housing placement.",
+   "why_it_matters": "Institutions can enforce operational restrictions consistently across student lifecycle processes."
+  },
+  {
+   "feature": "Forms Builder and Workflow Composer provide configurable forms and process automation.",
+   "why_it_matters": "Institutions can adapt some workflows without relying solely on custom development."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Users report occasional slowness, downtime, dated appearance, complexity, and limited mobile functionality.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "student"
+  },
+  {
+   "issue": "Reviews cite slow or frustrating support and duplicated inquiries.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Schedule lookup and history filtering can be unintuitive or difficult.",
+   "cluster": "complexity_usability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Users report limited customization and unintuitive multi-step workflows that require training.",
+   "cluster": "complexity_usability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Pricing is unpublished, and historical reviews report expensive migration and managed services.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Ownership and portfolio divisions among Ellucian, Encoura, and Blackboard create roadmap and contract-governance uncertainty.",
+   "cluster": "product_uncertainty_ownership",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Core Student lacks native transport, library, medical, discipline, special-education, alumni fundraising, and LMS capabilities.",
+   "cluster": "segment_limited",
+   "affected_role": "principal_head"
+  }
+ ],
+ "roles_well_served": [
+  "admissions_counsellor",
+  "academic_coordinator",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "owner_trustee_group_ceo",
+  "student",
+  "it_data_manager"
+ ],
+ "roles_poorly_served": [
+  "teacher_faculty",
+  "parent",
+  "transport_manager",
+  "librarian",
+  "counsellor_senco_safeguarding"
+ ],
+ "ai_features": [
+  "Opt-in Azure OpenAI GPT-4o product-guide assistant grounded in curated documentation; it does not access student data.",
+  "Class Scheduling AI Assistant analyzes seat projections and recent registration history to identify section-demand needs."
+ ],
+ "pricing_model_summary": "No public rate card or free trial; pricing is quote-based, with modules, hosting, implementation, migration, training, and services potentially priced separately.",
+ "biggest_strategic_gap": "It is a specialized higher-education SIS/ERP, not a complete school platform; several student-success, teaching, and campus-service needs require separate products or integrations.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/19-Anthology-Student.md"
+}

@@ -1,0 +1,182 @@
+{
+ "platform": "openSIS: hybrid browser-based SIS with SaaS, GPL Community Edition, licensed on-premises Professional Edition, and role-aware iOS/Android app.",
+ "segments": [
+  "k12_public",
+  "k12_private_independent",
+  "international_ib",
+  "higher_ed",
+  "coaching_vocational",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "full",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "full",
+  "standards_competency_grading": "full",
+  "exams_management": "partial",
+  "report_cards_transcripts": "full",
+  "lms_homework": "partial",
+  "curriculum_planning": "partial",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "partial",
+  "multilingual_ui": "partial",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "partial",
+  "payroll_hr": "none_or_not_documented",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "none_or_not_documented",
+  "health_medical": "full",
+  "behavior_pastoral": "full",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "partial",
+  "mtss_early_warning": "partial",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "full",
+  "predictive_analytics": "partial",
+  "government_statutory_reporting": "partial",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "full",
+  "financial_aid_scholarships": "partial",
+  "alumni_advancement_fundraising": "none_or_not_documented",
+  "marketing_website_cms": "none_or_not_documented",
+  "open_api": "partial",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "full",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "full",
+  "data_export_portability": "full",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "none_or_not_documented",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "GPL Community Edition alongside SaaS and licensed on-premises deployment.",
+   "why_it_matters": "Institutions can choose self-hosting, managed cloud, or licensed deployment according to their control and infrastructure needs."
+  },
+  {
+   "feature": "Staff-based pricing with unlimited student and parent accounts.",
+   "why_it_matters": "Costs are tied to staff accounts rather than the number of students or families using portals."
+  },
+  {
+   "feature": "Configurable admissions forms with conditional logic, multilingual translation, workflow steps, and applicant-to-student transfer.",
+   "why_it_matters": "Schools can tailor intake processes and carry applicant information into enrolled student records."
+  },
+  {
+   "feature": "Scheduling for block, rotating, mosaic, year-round, and multi-period models.",
+   "why_it_matters": "The range supports varied calendars and timetable structures beyond a standard daily schedule."
+  },
+  {
+   "feature": "Graduation and degree audit with program-linked credit requirements and student progress views.",
+   "why_it_matters": "Institutions can track requirements and show students their progress toward program completion."
+  },
+  {
+   "feature": "AI tools for lesson plans, report-card comments, natural-language search, and communication translation.",
+   "why_it_matters": "These tools can assist routine academic and communication tasks within the SIS."
+  },
+  {
+   "feature": "Copy School templates, year-end rollover, and multi-school enrollment.",
+   "why_it_matters": "Groups can reuse configurations and manage multiple school records within the platform."
+  },
+  {
+   "feature": "openIntel data warehousing and business intelligence option.",
+   "why_it_matters": "District and enterprise customers can add data visualization and warehousing beyond standard reports."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "G2 reviewers report an outdated or less user-friendly interface.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Reviewers report difficulty contacting support and limited support resources.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Reviewers cite limited rules/configuration and application-management functionality.",
+   "cluster": "segment_limited",
+   "affected_role": "admissions_counsellor"
+  },
+  {
+   "issue": "Reviewers report slow bug fixes and extra effort when changing schedules.",
+   "cluster": "complexity_usability",
+   "affected_role": "academic_coordinator"
+  },
+  {
+   "issue": "A reviewer alleges discontinued free-account data deletion without effective warning; the allegation conflicts with current terms.",
+   "cluster": "lockin_migration",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "SourceForge users report installation problems and bugs in older Community Edition releases.",
+   "cluster": "performance_reliability",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Transport, library, hostel, inventory, payroll, alumni, and complete safeguarding modules are not evidenced as native capabilities.",
+   "cluster": "fragmented_tools",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "No verified OneRoster, LTI, Ed-Fi, or SIF certification is documented.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Public review volume is very small, with weak ratings reported on G2 and Capterra.",
+   "cluster": "product_uncertainty_ownership",
+   "affected_role": "owner_trustee_group_ceo"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "teacher_faculty",
+  "parent",
+  "student",
+  "it_data_manager"
+ ],
+ "roles_poorly_served": [
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "hr_manager",
+  "counsellor_senco_safeguarding",
+  "alumni"
+ ],
+ "ai_features": [
+  "Piloo guide and workflow assistance",
+  "Natural-language Smart Search",
+  "AI lesson-plan, curriculum, and syllabus generation",
+  "AI-assisted report-card comments",
+  "Communication drafting and recipient-language translation",
+  "Reporting assistance",
+  "Predictive early-warning insights for academic failure, attendance, enrollment, and course demand"
+ ],
+ "pricing_model_summary": "Community Edition is free and GPL-licensed. SaaS plans use staff-based pricing with unlimited student and parent accounts; Professional and enterprise options are quote-based.",
+ "biggest_strategic_gap": "Broad SIS and scheduling coverage is not matched by native transport, library, hostel, HR/payroll, safeguarding, or verified interoperability standards.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/17-openSIS.md"
+}

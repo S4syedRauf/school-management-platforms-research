@@ -1,0 +1,159 @@
+{
+ "platform": "Gradelink SIS",
+ "segments": [
+  "preschool",
+  "k12_private_independent",
+  "international_ib",
+  "k12_public",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "partial",
+  "online_enrollment": "partial",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "full",
+  "standards_competency_grading": "full",
+  "exams_management": "none_or_not_documented",
+  "report_cards_transcripts": "full",
+  "lms_homework": "partial",
+  "curriculum_planning": "partial",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "none_or_not_documented",
+  "messaging_sms_email_push": "partial",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "partial",
+  "payroll_hr": "none_or_not_documented",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "none_or_not_documented",
+  "hostel": "none_or_not_documented",
+  "library": "none_or_not_documented",
+  "inventory_assets": "none_or_not_documented",
+  "health_medical": "full",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "partial",
+  "mtss_early_warning": "none_or_not_documented",
+  "analytics_dashboards": "partial",
+  "custom_report_builder": "partial",
+  "genai_assistant": "none_or_not_documented",
+  "predictive_analytics": "none_or_not_documented",
+  "government_statutory_reporting": "partial",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "none_or_not_documented",
+  "marketing_website_cms": "none_or_not_documented",
+  "open_api": "none_or_not_documented",
+  "standards_oneroster_lti_edfi": "partial",
+  "sso": "partial",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "none_or_not_documented",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "partial",
+  "data_export_portability": "full",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "partial",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "District and Diocese Login provides cross-school reporting, subgroup views, maps, and group email.",
+   "why_it_matters": "It gives smaller school groups oversight across campuses without requiring a large district ERP."
+  },
+  {
+   "feature": "Separate school databases",
+   "why_it_matters": "The vendor describes school-level database separation as an additional privacy boundary in its multi-tenant service."
+  },
+  {
+   "feature": "Targeted state and association reporting integrations",
+   "why_it_matters": "Ed-Fi/WISEdata and selected state and NCEA workflows help schools meet specific reporting needs."
+  },
+  {
+   "feature": "Configurable family grade and attendance alerts",
+   "why_it_matters": "Families can receive threshold-based updates and schools can schedule email, SMS, or voice notifications."
+  },
+  {
+   "feature": "Dynamic award certificate designer",
+   "why_it_matters": "Schools can create data-filled certificate templates and batch-export awards as PDFs."
+  },
+  {
+   "feature": "Admissions-to-billing workflow",
+   "why_it_matters": "Optional enrollment tools connect applications and fee collection with student records, tuition, and payments."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Reviewers report freezes, timeouts, unexplained returns to the home page, and limited comment space.",
+   "cluster": "performance_reliability",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Some reviewers describe the interface as dated or less streamlined than larger SIS products.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Reviewers report limited report customization and difficulty handling complex reporting needs.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Staff may need a computer because the web software is not fully usable on mobile.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "Some reviewers report parent-app glitches and bill-pay usability problems.",
+   "cluster": "performance_reliability",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "Families may find combined tuition, lunch, and activity payments confusing; PaySimple setup and importing draw complaints.",
+   "cluster": "complexity_usability",
+   "affected_role": "accountant_bursar"
+  },
+  {
+   "issue": "Optional add-ons and quote-based extras can make total costs harder to predict.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "No public API or predictive analytics, with limited advanced integrations and ERP functions.",
+   "cluster": "fragmented_tools",
+   "affected_role": "it_data_manager"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "teacher_faculty",
+  "parent",
+  "student"
+ ],
+ "roles_poorly_served": [
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "hr_manager",
+  "it_data_manager",
+  "counsellor_senco_safeguarding",
+  "alumni"
+ ],
+ "ai_features": [],
+ "pricing_model_summary": "Monthly pricing based on active students, with a one-time setup fee, optional paid add-ons, payment processing fees, and no long-term contract.",
+ "biggest_strategic_gap": "The product lacks a public API, broad enterprise ERP modules, predictive analytics, and a dedicated teacher mobile app.",
+ "_file": "02-platform-profiles/03-also-evaluated/global-22-Gradelink-SIS.md"
+}

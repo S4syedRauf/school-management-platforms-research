@@ -1,0 +1,188 @@
+{
+ "platform": "Cloud SaaS and web-based ERP with native iOS/Android app distribution; legacy Windows lineage and on-premises integrations, but no clearly documented current self-hosted edition.",
+ "segments": [
+  "k12_public",
+  "k12_private_independent",
+  "international_ib",
+  "higher_ed",
+  "coaching_vocational",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "partial",
+  "timetable_auto_scheduling": "full",
+  "cover_substitution": "full",
+  "gradebook": "full",
+  "standards_competency_grading": "partial",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "full",
+  "curriculum_planning": "partial",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "partial",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "full",
+  "payroll_hr": "full",
+  "recruitment": "partial",
+  "transport_gps": "partial",
+  "hostel": "partial",
+  "library": "full",
+  "inventory_assets": "full",
+  "health_medical": "full",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "none_or_not_documented",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "partial",
+  "genai_assistant": "partial",
+  "predictive_analytics": "partial",
+  "government_statutory_reporting": "partial",
+  "accreditation_obe": "partial",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "partial",
+  "marketing_website_cms": "partial",
+  "open_api": "none_or_not_documented",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "none_or_not_documented",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "none_or_not_documented",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "partial",
+  "data_export_portability": "partial",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "none_or_not_documented",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Vidyamitra administrative AI assistant",
+   "why_it_matters": "The vendor describes a 24×7 assistant for staff queries, potentially reducing routine administrative workload."
+  },
+  {
+   "feature": "Holistic Progress Card",
+   "why_it_matters": "Reports academic, cognitive, physical, social-emotional and co-curricular development alongside teacher observations and parent feedback."
+  },
+  {
+   "feature": "Board-pattern assessment configuration",
+   "why_it_matters": "Supports CBSE, ICSE, IB and state-board patterns, CCE, mark conversions and more than 40 mark-sheet designs."
+  },
+  {
+   "feature": "Tally fee-transaction integration",
+   "why_it_matters": "Mapped fee ledgers and one-click voucher creation can reduce duplicate accounting work."
+  },
+  {
+   "feature": "WhatsApp Business integration",
+   "why_it_matters": "Supports verified profiles, rich-media broadcasts and admissions chatbot responses through WhatsApp."
+  },
+  {
+   "feature": "Multiple attendance and transport integrations",
+   "why_it_matters": "Biometric, UHF/RFID, barcode and face-recognition integrations, plus GPS vehicle tracking, extend beyond manual attendance."
+  },
+  {
+   "feature": "Higher-education IQAC module",
+   "why_it_matters": "Targets NAAC/NBA-style quality documentation, dashboards and accreditation reporting."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "No public rate card; the vendor gives a broad ₹5–₹50 per-student monthly range, while directory prices conflict.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Reviewers report occasional server maintenance, lag, unknown errors and slow report opening.",
+   "cluster": "performance_reliability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Reviewers mention incomplete report or dashboard customization and limited inventory-dashboard visibility.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "An Apple reviewer reported crashes soon after opening; another reported a nonworking gallery.",
+   "cluster": "performance_reliability",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "Reviewers report occasional support delays.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Public evidence does not establish DPDP readiness, data residency, SOC 2, or product-level security certification.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "The app-store disclosure reports data not encrypted and deletion unavailable; buyers should reconcile this with contractual disclosures.",
+   "cluster": "security_privacy",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "No public evidence of UDISE+, APAAR, OneRoster, LTI, Ed-Fi, or a developer API limits verifiable interoperability.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Public documentation does not establish specialist education or safeguarding workflows.",
+   "cluster": "segment_limited",
+   "affected_role": "counsellor_senco_safeguarding"
+  },
+  {
+   "issue": "Adoption totals vary across vendor pages and lack independent audit evidence.",
+   "cluster": "product_uncertainty_ownership",
+   "affected_role": "owner_trustee_group_ceo"
+  }
+ ],
+ "roles_well_served": [
+  "owner_trustee_group_ceo",
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "teacher_faculty",
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "hr_manager",
+  "parent",
+  "student",
+  "alumni"
+ ],
+ "roles_poorly_served": [
+  "counsellor_senco_safeguarding",
+  "government_inspector",
+  "it_data_manager"
+ ],
+ "ai_features": [
+  "Vidyamitra administrative assistant",
+  "AI timetable generation",
+  "AI lesson plans",
+  "AI-assisted admissions",
+  "AI transport management",
+  "AI homework checking",
+  "AI exam seating",
+  "AI holiday planning",
+  "Assessment and attendance AI features",
+  "Happiness-index prediction"
+ ],
+ "pricing_model_summary": "No public rate card or named tiers. Vendor FAQ cites a general ₹5–₹50 per-student monthly range, dependent on modules and support; third-party prices conflict.",
+ "biggest_strategic_gap": "Limited publicly documented interoperability and compliance evidence, including no confirmed standards-based integrations, developer API, DPDP readiness, or specialist safeguarding workflows.",
+ "_file": "02-platform-profiles/02-india-top-10/07-Vidyalaya-School-ERP.md"
+}

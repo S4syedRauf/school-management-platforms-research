@@ -1,0 +1,182 @@
+{
+ "platform": "Entab CampusCare 10X / Entab One — cloud-hosted, web-based Indian school ERP/SIS with Android and iOS apps.",
+ "segments": [
+  "k12_public",
+  "k12_private_independent",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "full",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "full",
+  "gradebook": "full",
+  "standards_competency_grading": "full",
+  "exams_management": "full",
+  "report_cards_transcripts": "full",
+  "lms_homework": "full",
+  "curriculum_planning": "full",
+  "parent_app": "full",
+  "student_app": "full",
+  "teacher_mobile_app": "full",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "full",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "full",
+  "payroll_hr": "full",
+  "recruitment": "partial",
+  "transport_gps": "full",
+  "hostel": "partial",
+  "library": "full",
+  "inventory_assets": "full",
+  "health_medical": "partial",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "partial",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "partial",
+  "predictive_analytics": "partial",
+  "government_statutory_reporting": "partial",
+  "accreditation_obe": "partial",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "partial",
+  "marketing_website_cms": "partial",
+  "open_api": "none_or_not_documented",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "none_or_not_documented",
+  "offline_mode": "partial",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "full",
+  "data_export_portability": "full",
+  "visitor_management": "full",
+  "canteen_cashless": "partial",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "NEP/NCF-aligned holistic progress cards with competency and rubric assessment, multidimensional feedback, and 5+3+3+4 mapping.",
+   "why_it_matters": "Supports whole-child assessment and Indian policy-aligned reporting beyond conventional marks-based report cards."
+  },
+  {
+   "feature": "India-localized finance and payroll, including GST reporting, UPI/payment gateways, Tally integration, PF, ESI, TDS, gratuity and ECR files.",
+   "why_it_matters": "Reduces manual handling of common Indian school finance and statutory payroll workflows."
+  },
+  {
+   "feature": "Transport operations combine live GPS, route playback, deviation alerts, route changes, RFID/biometric bus attendance and parent notifications.",
+   "why_it_matters": "Connects transport oversight and family communication within the school platform."
+  },
+  {
+   "feature": "WhatsApp workflows provide approved templates, audience targeting and configurable alerts for fees, attendance, leave, classes and events.",
+   "why_it_matters": "Lets schools deliver operational notices through a widely used parent communication channel."
+  },
+  {
+   "feature": "Library operations include OPAC, barcode printing, reservations, multi-library support and fines linked to fee ledgers.",
+   "why_it_matters": "Connects resource discovery and circulation with student and finance administration."
+  },
+  {
+   "feature": "Inventory and asset workflows cover purchasing, approvals, issue/return, maintenance, depreciation and disposal.",
+   "why_it_matters": "Gives schools a documented lifecycle view of supplies and fixed assets across locations."
+  },
+  {
+   "feature": "Multi-branch central dashboards and reporting are positioned for school groups.",
+   "why_it_matters": "Helps group leaders compare operations and access branch-level visibility from a central platform."
+  },
+  {
+   "feature": "Vendor-marketed AI features include predictive analytics, risk detection, chatbots, auto-grading and personalized learning recommendations.",
+   "why_it_matters": "Could extend reporting and learning workflows, though public technical validation and production evidence are limited."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Pricing is quote-only; public directories show contradictory figures that are not corroborated by the vendor.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "A reviewer reports a learning curve and potentially lengthy implementation, especially for smaller schools.",
+   "cluster": "complexity_usability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "A reviewer reports variable support responsiveness.",
+   "cluster": "support_implementation",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "App reviews report lag, crashes, login friction and difficulty loading results or assignments; these are user reports, not measured benchmarks.",
+   "cluster": "performance_reliability",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "Google Play’s data disclosure says data is not encrypted, conflicting with vendor security claims and warranting procurement diligence.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "No public evidence confirms UDISE+ export, APAAR lifecycle support, or complete ICSE and state-board templates.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "principal_head"
+  },
+  {
+   "issue": "Public documentation does not establish a public API, open education standards connectors, SSO protocol or integration marketplace.",
+   "cluster": "fragmented_tools",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "No public SOC 2 or ISO 27001 certificate, penetration-test summary, or India data-residency statement was found.",
+   "cluster": "security_privacy",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "Public materials provide little detail about hostel operations and health records, so those listed modules need demonstration.",
+   "cluster": "segment_limited",
+   "affected_role": "hostel_warden"
+  },
+  {
+   "issue": "AI capabilities are marketing claims without public model documentation, governance details or accuracy benchmarks.",
+   "cluster": "ai_shallow_or_risky",
+   "affected_role": "principal_head"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "exam_controller_registrar",
+  "teacher_faculty",
+  "transport_manager",
+  "librarian",
+  "hr_manager",
+  "parent",
+  "student",
+  "owner_trustee_group_ceo"
+ ],
+ "roles_poorly_served": [
+  "it_data_manager",
+  "counsellor_senco_safeguarding",
+  "hostel_warden",
+  "government_inspector",
+  "accreditation_iqac"
+ ],
+ "ai_features": [
+  "Vendor claims AI analytics dashboards, predictive analytics, risk and trend detection, and school-planning assistance.",
+  "Marketing lists chatbot assistants, personalized learning paths, auto-grading, content recommendations, plagiarism checking, behavior analysis, performance forecasting, and AI-generated questions and notes.",
+  "Public technical documentation, governance details, accuracy benchmarks, and named production models were not found."
+ ],
+ "pricing_model_summary": "Custom pricing based on school size; no public price card or confirmed implementation fee. Third-party directory prices are contradictory and uncorroborated.",
+ "biggest_strategic_gap": "Limited documented interoperability and assurance: no public API or major education-standard connectors, alongside absent public security certifications and unresolved app-store encryption disclosure conflict.",
+ "_file": "02-platform-profiles/02-india-top-10/09-Entab-CampusCare.md"
+}

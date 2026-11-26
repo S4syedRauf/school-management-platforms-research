@@ -1,0 +1,175 @@
+{
+ "platform": "Veracross: cloud SaaS, browser-based school information platform with connected Digistorm mobile apps.",
+ "segments": [
+  "k12_private_independent",
+  "international_ib",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "full",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "none_or_not_documented",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "full",
+  "standards_competency_grading": "none_or_not_documented",
+  "exams_management": "none_or_not_documented",
+  "report_cards_transcripts": "full",
+  "lms_homework": "full",
+  "curriculum_planning": "partial",
+  "parent_app": "partial",
+  "student_app": "partial",
+  "teacher_mobile_app": "none_or_not_documented",
+  "messaging_sms_email_push": "full",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "full",
+  "payroll_hr": "partial",
+  "recruitment": "none_or_not_documented",
+  "transport_gps": "partial",
+  "hostel": "partial",
+  "library": "none_or_not_documented",
+  "inventory_assets": "partial",
+  "health_medical": "partial",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "none_or_not_documented",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "full",
+  "predictive_analytics": "none_or_not_documented",
+  "government_statutory_reporting": "none_or_not_documented",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "full",
+  "marketing_website_cms": "partial",
+  "open_api": "full",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "full",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "partial",
+  "marketplace_plugins": "full",
+  "multi_campus_group": "partial",
+  "data_export_portability": "partial",
+  "visitor_management": "none_or_not_documented",
+  "canteen_cashless": "partial",
+  "placements_careers": "partial",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "One-person, one-record database connects admissions, academics, billing, development, communications, and alumni history.",
+   "why_it_matters": "Shared constituent records can reduce duplicate data and connect workflows across school departments."
+  },
+  {
+   "feature": "VC Studio uses natural-language prompts to create analytics reports, charts, and dashboards.",
+   "why_it_matters": "School staff can explore data and produce visualizations without relying solely on technical report writers."
+  },
+  {
+   "feature": "Development tools include moves management, soft credits, tribute gifts, wealth-screening data, and solicitor access.",
+   "why_it_matters": "These functions support detailed fundraising and donor relationship workflows within a school platform."
+  },
+  {
+   "feature": "Admissions supports inquiry-to-enrollment automations, event management, decision letters, deposits, and re-enrollment.",
+   "why_it_matters": "Automated communications and connected enrollment data can reduce repeated entry during admissions."
+  },
+  {
+   "feature": "Open API, partner portal, and a stated ecosystem of more than 200 integrations support two-way synchronization.",
+   "why_it_matters": "Schools can connect specialist systems instead of relying only on isolated file exports."
+  },
+  {
+   "feature": "Tuition payments can be tagged to invoices and reconciled with connected accounting workflows.",
+   "why_it_matters": "This links payer activity with school financial records and can simplify reconciliation."
+  },
+  {
+   "feature": "Configurable portals include views for parents, students, staff, bill payers, and solicitors.",
+   "why_it_matters": "Role-specific access presents relevant information and workflows to different school communities."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "Official pricing is quote-only, with no published rates, tiers, setup fees, or implementation fees.",
+   "cluster": "cost_pricing",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "International deployments may face limited multi-currency support, payment localization, bank reconciliation, and budgeting.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "accountant_bursar"
+  },
+  {
+   "issue": "Payroll is limited or unavailable for many non-U.S. schools; onboarding is described as basic.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "hr_manager"
+  },
+  {
+   "issue": "Some schools report insufficient dashboards and build data warehouses for international reporting needs.",
+   "cluster": "reporting_rigidity",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Reviewers cite limited customization and workarounds for certain workflows.",
+   "cluster": "complexity_usability",
+   "affected_role": "front_office_admin"
+  },
+  {
+   "issue": "Reviewers report difficulty emailing multiple course sections at once and exporting calendars to Google Calendar.",
+   "cluster": "fragmented_tools",
+   "affected_role": "teacher_faculty"
+  },
+  {
+   "issue": "The older Veracross Directory for Admins app has poor ratings and complaints about crashes and dark-mode behavior.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Fixed-asset maintenance may be costly and difficult, leading some schools to use external systems.",
+   "cluster": "complexity_usability",
+   "affected_role": "accountant_bursar"
+  },
+  {
+   "issue": "Some international deployments report gaps in dismissal and bus-attendance tracking.",
+   "cluster": "local_compliance_gaps",
+   "affected_role": "transport_manager"
+  },
+  {
+   "issue": "A reviewer reported that two-factor authentication cost extra.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  }
+ ],
+ "roles_well_served": [
+  "owner_trustee_group_ceo",
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "teacher_faculty",
+  "parent",
+  "student",
+  "alumni",
+  "it_data_manager"
+ ],
+ "roles_poorly_served": [
+  "hr_manager",
+  "transport_manager",
+  "librarian",
+  "government_inspector"
+ ],
+ "ai_features": [
+  "VC Studio accepts natural-language questions and generates reports, charts, dashboards, and visualizations.",
+  "VC Studio can compare data, surface gaps, and explain analytics results.",
+  "Public materials do not specify model, limits, rollout scope, or pricing."
+ ],
+ "pricing_model_summary": "Quote-based pricing tailored to school size, type, modules, and budget; no official prices or implementation fees are published.",
+ "biggest_strategic_gap": "International schools may need external tools or custom work for localized finance, payroll, statutory reporting, transport workflows, and other jurisdiction-specific requirements.",
+ "_file": "02-platform-profiles/01-worldwide-top-20/08-Veracross.md"
+}

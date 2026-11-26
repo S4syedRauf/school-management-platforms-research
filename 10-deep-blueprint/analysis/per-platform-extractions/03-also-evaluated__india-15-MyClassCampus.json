@@ -1,0 +1,157 @@
+{
+ "platform": "MyClassCampus: historical cloud-based, web and mobile education ERP; standalone product status is currently unclear after Teachmint acquisition.",
+ "segments": [
+  "k12_private_independent",
+  "higher_ed",
+  "coaching_vocational",
+  "multi_campus_group"
+ ],
+ "coverage": {
+  "admissions_crm": "full",
+  "online_enrollment": "full",
+  "student_records": "full",
+  "guardian_household": "partial",
+  "attendance": "full",
+  "biometric_rfid_qr_attendance": "partial",
+  "timetable_auto_scheduling": "partial",
+  "cover_substitution": "none_or_not_documented",
+  "gradebook": "partial",
+  "standards_competency_grading": "none_or_not_documented",
+  "exams_management": "full",
+  "report_cards_transcripts": "partial",
+  "lms_homework": "full",
+  "curriculum_planning": "none_or_not_documented",
+  "parent_app": "partial",
+  "student_app": "partial",
+  "teacher_mobile_app": "partial",
+  "messaging_sms_email_push": "partial",
+  "whatsapp": "none_or_not_documented",
+  "multilingual_ui": "none_or_not_documented",
+  "fees_billing": "full",
+  "online_payments": "full",
+  "accounting_ledger": "partial",
+  "payroll_hr": "full",
+  "recruitment": "partial",
+  "transport_gps": "full",
+  "hostel": "partial",
+  "library": "full",
+  "inventory_assets": "full",
+  "health_medical": "none_or_not_documented",
+  "behavior_pastoral": "partial",
+  "safeguarding": "none_or_not_documented",
+  "special_education_iep": "none_or_not_documented",
+  "mtss_early_warning": "none_or_not_documented",
+  "analytics_dashboards": "full",
+  "custom_report_builder": "full",
+  "genai_assistant": "none_or_not_documented",
+  "predictive_analytics": "none_or_not_documented",
+  "government_statutory_reporting": "none_or_not_documented",
+  "accreditation_obe": "none_or_not_documented",
+  "higher_ed_registration_degree_audit": "none_or_not_documented",
+  "financial_aid_scholarships": "none_or_not_documented",
+  "alumni_advancement_fundraising": "none_or_not_documented",
+  "marketing_website_cms": "partial",
+  "open_api": "none_or_not_documented",
+  "standards_oneroster_lti_edfi": "none_or_not_documented",
+  "sso": "none_or_not_documented",
+  "offline_mode": "none_or_not_documented",
+  "nocode_workflow_automation": "none_or_not_documented",
+  "marketplace_plugins": "none_or_not_documented",
+  "multi_campus_group": "full",
+  "data_export_portability": "none_or_not_documented",
+  "visitor_management": "partial",
+  "canteen_cashless": "partial",
+  "placements_careers": "none_or_not_documented",
+  "research_management": "none_or_not_documented"
+ },
+ "distinctive_features": [
+  {
+   "feature": "Broad historical ERP spanning academics, finance, HR and campus operations.",
+   "why_it_matters": "Institutions could manage many administrative and operational workflows in one platform."
+  },
+  {
+   "feature": "Multi-branch administration with role-based access.",
+   "why_it_matters": "Groups could configure access and oversee multiple institutional branches."
+  },
+  {
+   "feature": "GPS transport management with routes, waypoints, dashboards and reports.",
+   "why_it_matters": "Schools could track vehicles and manage transport operations through the ERP."
+  },
+  {
+   "feature": "Wireless biometric attendance support.",
+   "why_it_matters": "Institutions could connect biometric devices to attendance workflows."
+  },
+  {
+   "feature": "Pocket Study integrated LMS with study materials, quizzes and online classes.",
+   "why_it_matters": "Learners and teachers could access teaching and learning tools alongside ERP services."
+  },
+  {
+   "feature": "Dynamic certificate generation with field logic.",
+   "why_it_matters": "Administrative staff could produce certificates using configurable fields."
+  },
+  {
+   "feature": "DIY website builder and hosting service.",
+   "why_it_matters": "Institutions could manage a website as part of the platform offering."
+  },
+  {
+   "feature": "QR profile scanning and student wallet.",
+   "why_it_matters": "These tools offered identity and payment convenience in the historical module set."
+  }
+ ],
+ "weaknesses": [
+  {
+   "issue": "The legacy ERP's current sales, product status and relationship to Teachmint are not publicly clear.",
+   "cluster": "product_uncertainty_ownership",
+   "affected_role": "owner_trustee_group_ceo"
+  },
+  {
+   "issue": "No current MyClassCampus price, standalone product catalogue or public documentation portal was verified.",
+   "cluster": "product_uncertainty_ownership",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "The historical iOS app was removed in 2024, and the preserved Android package was last updated in 2023.",
+   "cluster": "dated_ui_mobile",
+   "affected_role": "parent"
+  },
+  {
+   "issue": "No MyClassCampus-specific security certification, hosting region or compliance statement was verified.",
+   "cluster": "security_privacy",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "No public API support is documented; a third-party product listing says API support is unavailable.",
+   "cluster": "fragmented_tools",
+   "affected_role": "it_data_manager"
+  },
+  {
+   "issue": "Public review evidence is stale or sparse, limiting confidence about current product quality.",
+   "cluster": "product_uncertainty_ownership",
+   "affected_role": "principal_head"
+  }
+ ],
+ "roles_well_served": [
+  "principal_head",
+  "academic_coordinator",
+  "front_office_admin",
+  "admissions_counsellor",
+  "accountant_bursar",
+  "teacher_faculty",
+  "transport_manager",
+  "hostel_warden",
+  "librarian",
+  "hr_manager",
+  "parent",
+  "student"
+ ],
+ "roles_poorly_served": [
+  "it_data_manager",
+  "accreditation_iqac",
+  "counsellor_senco_safeguarding",
+  "government_inspector"
+ ],
+ "ai_features": [],
+ "pricing_model_summary": "No current official pricing verified. A 2021 report cited ₹100–₹150 per student annually; third-party listings describe quote-based plans.",
+ "biggest_strategic_gap": "Product continuity and support are unclear: the legacy site redirects, current pricing and documentation are absent, and historical mobile-app evidence is stale.",
+ "_file": "02-platform-profiles/03-also-evaluated/india-15-MyClassCampus.md"
+}
