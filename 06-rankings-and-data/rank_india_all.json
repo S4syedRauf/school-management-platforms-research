@@ -1,0 +1,197 @@
+[
+  {
+    "id": "IN06-mastersoft",
+    "name": "MasterSoft ERP (MasterSoft ERP Solutions Pvt. Ltd.)",
+    "scores": {
+      "feature_breadth": 10,
+      "adoption": 7,
+      "advanced_features": 8,
+      "ux_mobile": 8,
+      "interoperability": 4
+    },
+    "weighted_score": 7.9,
+    "rank": 1
+  },
+  {
+    "id": "IN04-camu",
+    "name": "Camu (Octoze Technologies)",
+    "scores": {
+      "feature_breadth": 8,
+      "adoption": 8,
+      "advanced_features": 8,
+      "ux_mobile": 8,
+      "interoperability": 6
+    },
+    "weighted_score": 7.8,
+    "rank": 2
+  },
+  {
+    "id": "IN01-fedena",
+    "name": "Fedena (Foradian Technologies)",
+    "scores": {
+      "feature_breadth": 8,
+      "adoption": 10,
+      "advanced_features": 6,
+      "ux_mobile": 4,
+      "interoperability": 6
+    },
+    "weighted_score": 7.6,
+    "rank": 3
+  },
+  {
+    "id": "IN12-nextos",
+    "name": "NextOS (Next Education)",
+    "scores": {
+      "feature_breadth": 8,
+      "adoption": 10,
+      "advanced_features": 4,
+      "ux_mobile": 8,
+      "interoperability": 6
+    },
+    "weighted_score": 7.6,
+    "rank": 4
+  },
+  {
+    "id": "IN05-academia-serosoft",
+    "name": "Academia ERP (Serosoft)",
+    "scores": {
+      "feature_breadth": 8,
+      "adoption": 6,
+      "advanced_features": 10,
+      "ux_mobile": 6,
+      "interoperability": 6
+    },
+    "weighted_score": 7.4,
+    "rank": 5
+  },
+  {
+    "id": "IN13-skolaro",
+    "name": "Skolaro (Buzzyears Education Pvt Ltd)",
+    "scores": {
+      "feature_breadth": 10,
+      "adoption": 7,
+      "advanced_features": 8,
+      "ux_mobile": 2,
+      "interoperability": 4
+    },
+    "weighted_score": 7.3,
+    "rank": 6
+  },
+  {
+    "id": "IN14-vidyalaya",
+    "name": "Vidyalaya School ERP (Sapphire Software Solutions)",
+    "scores": {
+      "feature_breadth": 8,
+      "adoption": 8,
+      "advanced_features": 6,
+      "ux_mobile": 8,
+      "interoperability": 4
+    },
+    "weighted_score": 7.2,
+    "rank": 7
+  },
+  {
+    "id": "IN11-myclassboard",
+    "name": "MyClassboard (MyClassboard Educational Solutions Pvt. Ltd.)",
+    "scores": {
+      "feature_breadth": 8,
+      "adoption": 8,
+      "advanced_features": 8,
+      "ux_mobile": 2,
+      "interoperability": 4
+    },
+    "weighted_score": 7.0,
+    "rank": 8
+  },
+  {
+    "id": "IN03-entab",
+    "name": "Entab CampusCare (Entab Infotech Pvt. Ltd.)",
+    "scores": {
+      "feature_breadth": 8,
+      "adoption": 8,
+      "advanced_features": 6,
+      "ux_mobile": 6,
+      "interoperability": 4
+    },
+    "weighted_score": 7.0,
+    "rank": 9
+  },
+  {
+    "id": "IN15-lead-school",
+    "name": "LEAD School (Leadership Boulevard Pvt. Ltd.)",
+    "scores": {
+      "feature_breadth": 6,
+      "adoption": 9,
+      "advanced_features": 4,
+      "ux_mobile": 8,
+      "interoperability": 4
+    },
+    "weighted_score": 6.5,
+    "rank": 10
+  },
+  {
+    "id": "IN02-teachmint",
+    "name": "Teachmint (Teachmint Technologies Pvt. Ltd.)",
+    "scores": {
+      "feature_breadth": 6,
+      "adoption": 8,
+      "advanced_features": 4,
+      "ux_mobile": 8,
+      "interoperability": 4
+    },
+    "weighted_score": 6.2,
+    "rank": 11
+  },
+  {
+    "id": "IN07-edunext",
+    "name": "Edunext ERP (Edunext Technologies Pvt. Ltd.)",
+    "scores": {
+      "feature_breadth": 8,
+      "adoption": 6,
+      "advanced_features": 4,
+      "ux_mobile": 8,
+      "interoperability": 4
+    },
+    "weighted_score": 6.2,
+    "rank": 12
+  },
+  {
+    "id": "IN09-openeducat",
+    "name": "OpenEduCat (OpenEduCat Inc.)",
+    "scores": {
+      "feature_breadth": 8,
+      "adoption": 2,
+      "advanced_features": 8,
+      "ux_mobile": 6,
+      "interoperability": 8
+    },
+    "weighted_score": 6.0,
+    "rank": 13
+  },
+  {
+    "id": "IN10-toddle",
+    "name": "Toddle (Teacher Tools Pvt. Ltd.)",
+    "scores": {
+      "feature_breadth": 6,
+      "adoption": 7,
+      "advanced_features": 4,
+      "ux_mobile": 4,
+      "interoperability": 6
+    },
+    "weighted_score": 5.7,
+    "rank": 14
+  },
+  {
+    "id": "IN08-myclasscampus",
+    "name": "MyClassCampus (Teachmint Technologies Pvt. Ltd.)",
+    "scores": {
+      "feature_breadth": 6,
+      "adoption": 8,
+      "advanced_features": 2,
+      "ux_mobile": 4,
+      "interoperability": 4
+    },
+    "weighted_score": 5.4,
+    "rank": 15
+  }
+]

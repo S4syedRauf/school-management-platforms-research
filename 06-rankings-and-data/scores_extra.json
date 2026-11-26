@@ -1,0 +1,12 @@
+[
+{"id":"G21-aeries","name":"Aeries SIS","region":"global","scores":{"feature_breadth":6,"adoption":7,"advanced_features":8,"ux_mobile":4,"interoperability":6}},
+{"id":"G22-focus","name":"Focus School Software","region":"global","scores":{"feature_breadth":8,"adoption":8,"advanced_features":8,"ux_mobile":4,"interoperability":8}},
+{"id":"G23-gradelink","name":"Gradelink SIS","region":"global","scores":{"feature_breadth":8,"adoption":8,"advanced_features":2,"ux_mobile":6,"interoperability":6}},
+{"id":"G24-opensis","name":"openSIS","region":"global","scores":{"feature_breadth":8,"adoption":8,"advanced_features":8,"ux_mobile":2,"interoperability":6}},
+{"id":"G25-gibbon","name":"Gibbon","region":"global","scores":{"feature_breadth":6,"adoption":2,"advanced_features":2,"ux_mobile":4,"interoperability":4}},
+{"id":"IN11-myclassboard","name":"MyClassboard","region":"india","scores":{"feature_breadth":8,"adoption":8,"advanced_features":8,"ux_mobile":2,"interoperability":4}},
+{"id":"IN12-nextos","name":"NextOS (Next Education)","region":"india","scores":{"feature_breadth":8,"adoption":10,"advanced_features":4,"ux_mobile":8,"interoperability":6}},
+{"id":"IN13-skolaro","name":"Skolaro","region":"india","scores":{"feature_breadth":10,"adoption":7,"advanced_features":8,"ux_mobile":2,"interoperability":4}},
+{"id":"IN14-vidyalaya","name":"Vidyalaya School ERP","region":"india","scores":{"feature_breadth":8,"adoption":8,"advanced_features":6,"ux_mobile":8,"interoperability":4}},
+{"id":"IN15-lead-school","name":"LEAD School","region":"india","scores":{"feature_breadth":6,"adoption":9,"advanced_features":4,"ux_mobile":8,"interoperability":4}}
+]

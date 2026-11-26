@@ -1,0 +1,277 @@
+[
+ {
+  "id": "G01-powerschool",
+  "name": "PowerSchool SIS (PowerSchool)",
+  "scores": {
+   "feature_breadth": 10,
+   "adoption": 10,
+   "advanced_features": 8,
+   "ux_mobile": 6,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G02-ellucian",
+  "name": "Ellucian (Ellucian)",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 10,
+   "advanced_features": 10,
+   "ux_mobile": 4,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G03-infinite-campus",
+  "name": "Infinite Campus (Infinite Campus, Inc.)",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 9,
+   "advanced_features": 6,
+   "ux_mobile": 4,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G04-workday-student",
+  "name": "Workday Student (Workday, Inc.)",
+  "scores": {
+   "feature_breadth": 6,
+   "adoption": 9,
+   "advanced_features": 10,
+   "ux_mobile": 6,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G05-oracle-student",
+  "name": "Oracle PeopleSoft Campus Solutions and Oracle Student Cloud (Oracle)",
+  "scores": {
+   "feature_breadth": 6,
+   "adoption": 7,
+   "advanced_features": 4,
+   "ux_mobile": 4,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G06-skyward",
+  "name": "Skyward (Skyward, Inc.)",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 9,
+   "advanced_features": 6,
+   "ux_mobile": 2,
+   "interoperability": 8
+  }
+ },
+ {
+  "id": "G07-blackbaud",
+  "name": "Blackbaud K-12 Education Management (Blackbaud, Inc.)",
+  "scores": {
+   "feature_breadth": 6,
+   "adoption": 9,
+   "advanced_features": 8,
+   "ux_mobile": 6,
+   "interoperability": 8
+  }
+ },
+ {
+  "id": "G08-anthology",
+  "name": "Anthology Student (Ellucian; formerly Anthology Inc./Campus Management)",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 6,
+   "advanced_features": 8,
+   "ux_mobile": 6,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G09-veracross",
+  "name": "Veracross (Veracross LLC)",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 8,
+   "advanced_features": 8,
+   "ux_mobile": 6,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G10-managebac",
+  "name": "ManageBac+ (Faria Education Group)",
+  "scores": {
+   "feature_breadth": 6,
+   "adoption": 8,
+   "advanced_features": 6,
+   "ux_mobile": 2,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G11-arbor",
+  "name": "Arbor Education (Arbor Education)",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 10,
+   "advanced_features": 10,
+   "ux_mobile": 2,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G12-bromcom",
+  "name": "Bromcom (Bromcom Computers plc)",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 9,
+   "advanced_features": 8,
+   "ux_mobile": 2,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G13-sims",
+  "name": "SIMS (Education Software Solutions (ESS))",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 9,
+   "advanced_features": 4,
+   "ux_mobile": 4,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G14-isams",
+  "name": "iSAMS (IRIS Software Group)",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 8,
+   "advanced_features": 6,
+   "ux_mobile": 4,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G15-synergy-edupoint",
+  "name": "Synergy Education Platform (Edupoint)",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 9,
+   "advanced_features": 8,
+   "ux_mobile": 2,
+   "interoperability": 8
+  }
+ },
+ {
+  "id": "G16-alma",
+  "name": "Alma SIS (Alma Technologies, Inc.)",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 9,
+   "advanced_features": 8,
+   "ux_mobile": 6,
+   "interoperability": 8
+  }
+ },
+ {
+  "id": "G17-facts",
+  "name": "FACTS SIS (FACTS Management Company / Nelnet Business Solutions)",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 9,
+   "advanced_features": 8,
+   "ux_mobile": 4,
+   "interoperability": 8
+  }
+ },
+ {
+  "id": "G18-compass",
+  "name": "Compass Education (Compass Education)",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 9,
+   "advanced_features": 6,
+   "ux_mobile": 4,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G19-classter",
+  "name": "Classter (Vertitech S.A., now part of Banyan Software)",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 7,
+   "advanced_features": 8,
+   "ux_mobile": 6,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G20-jenzabar",
+  "name": "Jenzabar (Jenzabar, Inc.)",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 7,
+   "advanced_features": 10,
+   "ux_mobile": 4,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G21-aeries",
+  "name": "Aeries SIS (Aeries Software)",
+  "scores": {
+   "feature_breadth": 6,
+   "adoption": 7,
+   "advanced_features": 8,
+   "ux_mobile": 4,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G22-focus",
+  "name": "Focus School Software (Focus School Software)",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 8,
+   "advanced_features": 8,
+   "ux_mobile": 4,
+   "interoperability": 8
+  }
+ },
+ {
+  "id": "G23-gradelink",
+  "name": "Gradelink SIS (Gradelink Corporation)",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 8,
+   "advanced_features": 2,
+   "ux_mobile": 6,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G24-opensis",
+  "name": "openSIS (Open Solutions for Education, Inc. / OS4ED)",
+  "scores": {
+   "feature_breadth": 8,
+   "adoption": 8,
+   "advanced_features": 8,
+   "ux_mobile": 2,
+   "interoperability": 6
+  }
+ },
+ {
+  "id": "G25-gibbon",
+  "name": "Gibbon (GibbonEdu)",
+  "scores": {
+   "feature_breadth": 6,
+   "adoption": 2,
+   "advanced_features": 2,
+   "ux_mobile": 4,
+   "interoperability": 4
+  }
+ }
+]
